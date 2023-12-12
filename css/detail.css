@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+
+main{
+    /* border:1px solid black; */
+    width:100%;
+    max-width:1200px;
+    margin:auto;
+}
+
+#product{
+    width:100%;
+    /* border:1px solid black; */
+}
+.product-image{
+    width:100%;
+    /* border:1px solid black; */
+    overflow:hidden;
+    margin-bottom:10px;
+}
+.product-slider{
+    width:300%;
+    display:flex;
+    position:relative;
+    justify-content:space-around;
+}
+.product-slide{
+    width:30%;
+    padding:20px;
+}
+.product-image img{
+    width:100%;
+}
+.product-menu{
+    width:100%;
+    /* border:1px solid black; */
+}
+#page{
+    width:100%;
+    padding:20px;
+    margin:auto;
+    background-color:rgba(204, 204, 204, 0.7);
+    position:relative;
+}
+#page:after{
+    content:"";
+    position:absolute;
+    border:1px solid rgba(204, 204, 204);
+    left:0;
+    bottom:-20px;
+    width:100%;
+}
+.pagenation{
+    width:44%;
+    margin:auto;
+    /* border:1px solid black; */
+    display:flex;
+    justify-content:space-around;
+    align-items:center; 
+}
+.dot{
+    width:60px;
+    height:60px;
+    
+}
+.dot img{
+    width:100%;
+}
+.dot.active{
+    background-color:gray;
+}
+
+.name{
+    width:100%;
+    text-align:center;
+    padding:40px;
+    margin-bottom:50px;
+    position:relative;
+}
+.name:after{
+    content:"";
+    position:absolute;
+    border:1px solid rgba(204, 204, 204, 0.5);
+    left:50%;
+    transform:translate(-50%,0);
+    bottom:-10px;
+    width:90%;
+    
+}
+.price:after{
+    content:"";
+    position:absolute;
+    border:1px solid rgba(204, 204, 204, 0.5);
+    left:0;
+    bottom:-40px;
+    width:100%;
+}
+.price{
+    /* border:1px solid black; */
+    width:90%;
+    margin:auto;
+    line-height:180%;
+    margin-bottom:50px;
+    position:relative;
+}
+.real-price{
+    display:flex;
+    align-items:center;
+}
+.real-price p{
+    color:red; 
+    margin-right:10px;
+}
+.info{
+    width:90%;
+    /* border:1px solid black; */
+    margin:auto;
+    line-height:250%;
+}
+.point,
+.delivery,
+.delivery-c{
+    display:flex;
+    justify-content:space-between;
+}
+
+.m-fix{
+    width:100%;
+    height:70px;
+    background-color:rgb(221, 220, 220);
+    position:fixed;
+    left:0;
+    bottom:-70px;
+    display:flex;
+    padding:10px;
+    z-index:999999999;
+}
+.m-fix.active{
+    bottom:0px;
+}
+.m-fix a{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    height:100%;
+    font-size:1.1rem;
+    font-weight:500;
+}
+.shop{
+    background-color:white;
+    width:50%;
+}
+.buy{
+    background-color:#5A4C78;
+    width:50%;
+}
+.buy a{
+    color:white;
+}

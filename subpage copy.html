@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keyword" content="그릇, 접시, 찻잔, 공기, 대접, 컵">
+        <meta name="description" content="아름다움을 담아드려요">
+        <meta name="author" content="Modern Plate">
+        <meta property="og:type" content="html">
+        <meta property="og:title" content="Modern Plate">
+        <meta property="og:description" content="아름다움을 담아드려요">
+        <meta property="og:image" content="./images/main/table-setting-1926936_1920.jpg">
+        <meta property="og:url" content="http://limlim.dothome.co.kr/modern-plate">
+        <title>Modern Plate</title>
+        <link rel="shortcut icon" href="./images/favicon-color.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="./css/common.css">
+        <link rel="stylesheet" href="./css/subpage.css">
+        <script src="./js/jquery-3.7.1.min.js"></script>
+        <script src="./js/common.js"></script>
+        <script src="./js/subpage.js"></script>
+    </head>
+    <body>
+        <header>
+            <div id="header-container">
+                <h1>
+                    <a href="index.html">
+                        <img src="./images/ms-logo-1120-3.png" alt="로고">
+                    </a>
+                </h1>
+                <nav id="icon-nav">
+                    <a href="#"><span class="fa fa-map-marker icon"></span></a>
+                    <a href="#"><span class="fa fa-shopping-cart icon"></span></a>
+                    <a href="login.html"><span class="fa fa-user icon"></span></a>
+                    <a href="#"><span class="fa fa-bars hamburger"></span></a>
+                </nav>
+                <nav id="mobile-nav">
+                    <div class="global-nav">
+                        <button class="m-close">X</button>
+                        <form class="search" action="">
+                            <div class="search-box">
+                                <input type="search" name="s-box" size="11">
+                            </div>
+                            <div class="glass">
+                                <input type="submit" id="s-txt"><label for="s-txt"><span class="fa fa-search s-glass"></span></label>
+                            </div>
+                        </form>
+                        <div id="m-menu-group">
+                            <div class="m-menu">
+                                <a href="#">브랜드 소개<span class="fa fa-angle-right arrow"></span></a>
+                                <div class="m-drop-down">
+                                    <a href="#">브랜드 소개</a>
+                                    <a href="#">매장 정보</a>
+                                </div>
+                            </div>
+                            <div class="m-menu">
+                                <a href="subpage.html">접시 그릇<span class="fa fa-angle-right arrow"></span></a>
+                                <div class="m-drop-down">
+                                    <a href="#">접시</a>
+                                    <a href="#">볼 / 공기 / 대접</a>
+                                    <a href="#">찬기 / 종지</a>
+                                </div>
+                            </div>
+                            <div class="m-menu">
+                                <a href="#">컵 잔<span class="fa fa-angle-right arrow"></span></a>
+                                <div class="m-drop-down">
+                                    <a href="#">찻잔</a>
+                                    <a href="#">물잔</a>
+                                    <a href="#">머그</a>
+                                    <a href="#">와인잔</a>
+                                    <a href="#">받침</a>
+                                </div>
+                            </div>
+                            <div class="m-menu">
+                                <a href="#">포트 기타<span class="fa fa-angle-right arrow"></span></a>
+                                <div class="m-drop-down">
+                                    <a href="#">커피포트</a>
+                                    <a href="#">티포트</a>
+                                    <a href="#">스푼 / 포크 / 나이프</a>
+                                </div>
+                            </div>
+                            <div class="m-menu">
+                                <a href="#">세트<span class="fa fa-angle-right arrow"></span></a>
+                                <div class="m-drop-down">
+                                    <a href="#">홈세트</a>
+                                    <a href="#">티세트</a>
+                                </div>
+                            </div>
+                            <div class="m-menu">
+                                <a href="#">세일</a>
+                            </div>
+                        </div>
+                        <div class="m-login-group">
+                            <a href="login.html">로그인&nbsp;|</a>
+                            <a href="member.html">&nbsp;회원가입&nbsp;|</a>
+                            <a href="#">&nbsp;고객센터</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="desk-nav-wrap">
+                <nav id="desk-nav">
+                    <!-- relative를 여기에 줘서 너비를 가져가게 만들고 -->
+                    <div class="menu">
+                        <a href="#">브랜드 소개</a>
+                        <div class="drop-down">
+                            <div class="drop-down-group">
+                            <!-- 좌측 메뉴 글씨와 우측 이미지 그룹을 따로 나누고 -->
+                                <div class="drop-down-txt">
+                                    <a href="#">브랜드 소개</a>
+                                    <a href="#">매장 정보</a>
+                                </div>
+                                <div class="drop-down-img">
+                                    <div class="drop-down-img-section">
+                                        <img src="" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <a href="subpage.html">접시 그릇</a>
+                        <div class="drop-down">
+                            <div class="drop-down-group">
+                                <div class="drop-down-txt">
+                                    <a href="#">접시</a>
+                                    <a href="#">볼 / 공기 / 대접</a>
+                                    <a href="#">찬기 / 종지</a>
+                                </div>
+                                <div class="drop-down-img">
+                                    <div class="drop-down-img-section">
+                                        <img src="" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <a href="#">컵 잔</a>
+                        <div class="drop-down">
+                            <div class="drop-down-group">
+                                <div class="drop-down-txt">
+                                    <a href="#">찻잔</a>
+                                    <a href="#">물잔</a>
+                                    <a href="#">머그</a>
+                                    <a href="#">와인잔</a>
+                                    <a href="#">받침</a>
+                                </div>
+                                <div class="drop-down-img">
+                                    <div class="drop-down-img-section">
+                                        <img src="" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <a href="#">포트 기타</a>
+                        <div class="drop-down">
+                            <div class="drop-down-group">
+                                <div class="drop-down-txt">
+                                    <a href="#">커피포트</a>
+                                    <a href="#">티포트</a>
+                                    <a href="#">스푼 / 포크 / 나이프</a>
+                                </div>
+                                <div class="drop-down-img">
+                                    <div class="drop-down-img-section">
+                                        <img src="./images/dropdown/pexels-nicola-barts-7937400.jpg" alt="커피 포트">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <a href="#">세트</a>
+                        <div class="drop-down">
+                            <div class="drop-down-group">
+                                <div class="drop-down-txt">
+                                    <a href="#">홈세트</a>
+                                    <a href="#">티세트</a>
+                                </div>
+                                <div class="drop-down-img">
+                                    <div class="drop-down-img-section">
+                                        <img src="./images/dropdown/breakfast-1835478_1920.jpg" alt="식기 세트">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <a href="#">세일</a>
+                    </div>
+                    <div class="full-back">&nbsp;</div>
+                </nav>
+            </div>
+        </header>
+        <section>
+            <h2>접시/그릇</h2>
+            <div id="menu-tab">
+                <div class="menu-wrap">
+                    <div class="menu-group">
+                        <div class="submenu">
+                            <a href="subpage.html">
+                                <img src="./images/sub/ben-kolde-rQsYZnCRU00-unsplash.jpg" alt="">
+                                <p>접시/그릇</p>
+                            </a>
+                        </div>
+                        <div class=" submenu">
+                            <a href="#">
+                                <img src="./images/sub/ben-kolde-rQsYZnCRU00-unsplash.jpg" alt="">
+                                <p>컵/잔</p>
+                            </a> 
+                        </div>
+                        <div class="submenu">
+                            <a href="#">
+                                <img src="./images/sub/ben-kolde-rQsYZnCRU00-unsplash.jpg" alt="">
+                                <p>포트/기타</p>
+                            </a>
+                        </div>
+                        <div class="submenu">
+                            <a href="#">
+                                <img src="./images/sub/ben-kolde-rQsYZnCRU00-unsplash.jpg" alt="">
+                                <p>세트</p>
+                            </a>
+                        </div>
+                        <div class="submenu">
+                            <a href="#">
+                                <img src="./images/sub/ben-kolde-rQsYZnCRU00-unsplash.jpg" alt="">
+                                <p>세일</p>
+                            </a>
+                        </div>
+                    </div>
+                    <button class="control prevbt active">&lt;</button>
+                    <button class="control nextbt">&gt;</button>
+                </div>
+            </div>
+            <div class="full-sub">
+                <img src="./images/submenu/flea-market-1883689_1920.jpg" alt="">
+            </div>
+        </section>
+        <footer>
+            푸터
+        </footer>
+    </body>
+</html>

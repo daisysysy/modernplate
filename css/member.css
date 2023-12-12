@@ -1,0 +1,316 @@
+@charset "utf-8";
+
+.member-title{
+    width:100%;
+    text-align:center;
+    font-size:1.5rem;
+    margin-top:100px;
+    margin-bottom:150px;
+    font-weight:600;
+}
+.member-form{
+    width:100%;
+    margin:auto;
+    padding-left:12%;
+    margin-bottom:500px;
+}
+.id{
+    width:100%;
+    margin-bottom:50px;
+}
+input[name=id]{
+    width:300px;
+    height:40px;
+    border-style:none none solid none;
+    border-width:1px;
+}
+.title{
+    margin-bottom:15px;
+    font-size:1.1rem;
+}
+.text{
+    margin-top:15px;
+    color:gray;
+    font-size:0.95rem;
+    line-height:150%;
+    width:260px;
+}
+.password{
+    width:100%;
+    margin-bottom:50px;
+}
+input[name=password]{
+    width:300px;
+    height:40px;
+    border-style:none none solid none;
+    border-width:1px;
+}
+input[name=psw]{
+    width:300px;
+    height:40px;
+    border-style:none none solid none;
+    border-width:1px;
+}
+.name{
+    width:100%;
+    margin-bottom:50px;
+}
+input[name=name]{
+    width:300px;
+    height:40px;
+    border-style:none none solid none;
+    border-width:1px;
+}
+.address{
+    width:100%;
+    margin-bottom:50px;
+}
+.mail{
+    margin-top:25px;
+}
+input[name=mail]{
+    width:100px;
+    margin-right:10px;
+    height:40px;
+    border-style:none none solid none;
+    border-width:1px;
+    margin-bottom:25px;
+}
+input[name=address1]{
+    width:300px;
+    height:40px;
+    border-style:none none solid none;
+    border-width:1px;
+    margin-bottom:25px;
+}
+input[name=address2]{
+    width:300px;
+    height:40px;
+    border-style:none none solid none;
+    border-width:1px;
+}
+.mailbt{
+    width:100px;
+    height:45px;
+    background-color:whitesmoke;
+    border:1px solid black;
+    border-radius:3px;
+}
+.phone{
+    width:100%;
+    margin-bottom:50px;
+}
+.phone-number{
+    display:flex;
+    justify-content:space-between;
+    width:300px;
+}
+input[name=number1]{
+    width:30%;
+    height:40px;
+    border-style:none none solid none;
+    border-width:1px;
+}
+input[name=number2]{
+    width:30%;
+    height:40px;
+    border-style:none none solid none;
+    border-width:1px;
+}
+input[name=number3]{
+    width:30%;
+    height:40px;
+    border-style:none none solid none;
+    border-width:1px;
+}
+.email{
+    width:100%;
+    margin-bottom:50px;
+}
+.email-form{
+    display:flex;
+    justify-content:space-between;
+    width:300px;
+    align-items:center;
+}
+input[name=email-id]{
+    width:30%;
+    height:40px;
+    border-style:none none solid none;
+    border-width:1px;
+}
+input[name=email-address]{
+    width:30%;
+    height:40px;
+    border-style:none none solid none;
+    border-width:1px;
+}
+.email-select{
+    width:30%;
+    height:40px;
+    border-style:none none solid none;
+    border-width:1px;
+}
+.etc{
+    margin-top:130px;
+    margin-bottom:80px;
+    font-size:1.2rem;
+}
+.birth{
+    width:100%;
+    margin-bottom:50px;
+}
+.birth-form{
+    display:flex;
+    justify-content:space-between;
+    width:300px;
+    align-items:center;
+}
+input[name=year]{
+    width:20%;
+    height:40px;
+    border-style:none none solid none;
+    border-width:1px;
+}
+input[name=month]{
+    width:20%;
+    height:40px;
+    border-style:none none solid none;
+    border-width:1px;
+}
+input[name=date]{
+    width:20%;
+    height:40px;
+    border-style:none none solid none;
+    border-width:1px;
+}
+.check{
+    width:300px;
+    font-size:1rem;
+    margin-top:70px;
+    margin-bottom:100px;
+}
+.check p{
+    width:100%;
+    margin-bottom:15px;
+}
+input[id=boxall]{
+    display:none;
+}
+input[id=boxall]+label{
+    width:15px;
+    height:15px;
+    border:1px solid gray;
+    display:inline-block;
+    margin-right:5px;
+    cursor:pointer;
+}
+input[id=boxall]:checked+label{
+    background:url(../images/login/icon_input-check.png);
+    background-repeat:no-repeat;
+    background-size:100%;
+}
+input[id=box1]{
+    display:none;
+}
+input[id=box1]+label{
+    width:15px;
+    height:15px;
+    border:1px solid gray;
+    display:inline-block;
+    margin-right:5px;
+    cursor:pointer;
+}
+input[id=box1]:checked+label{
+    background:url(../images/login/icon_input-check.png);
+    background-repeat:no-repeat;
+    background-size:100%;
+}
+input[id=box2]{
+    display:none;
+}
+input[id=box2]+label{
+    width:15px;
+    height:15px;
+    border:1px solid gray;
+    display:inline-block;
+    margin-right:5px;
+    cursor:pointer;
+}
+input[id=box2]:checked+label{
+    background:url(../images/login/icon_input-check.png);
+    background-repeat:no-repeat;
+    background-size:100%;
+}
+input[id=box3]{
+    display:none;
+}
+input[id=box3]+label{
+    width:15px;
+    height:15px;
+    border:1px solid gray;
+    display:inline-block;
+    margin-right:5px;
+    cursor:pointer;
+}
+input[id=box3]:checked+label{
+    background:url(../images/login/icon_input-check.png);
+    background-repeat:no-repeat;
+    background-size:100%;
+}
+input[id=box4]{
+    display:none;
+}
+input[id=box4]+label{
+    width:15px;
+    height:15px;
+    border:1px solid gray;
+    display:inline-block;
+    margin-right:5px;
+    cursor:pointer;
+}
+input[id=box4]:checked+label{
+    background:url(../images/login/icon_input-check.png);
+    background-repeat:no-repeat;
+    background-size:100%;
+}
+.join{
+    width:100%;
+    /* border:1px solid black; */
+    text-align:center;
+    padding-right:12%;
+}
+input[name=join]{
+    width:300px;
+    margin-top:60px;
+    height:70px;
+    background-color:rgb(159, 156, 173);
+    border:none;
+    border-radius:3px;
+    font-size:1.4rem;
+    color:black;
+    font-weight:600;
+}
+
+@media screen and (min-width:640px){
+    .member-form{
+        padding-left:20%;
+    }
+    .join{
+        padding-right:20%;
+    }
+}
+@media screen and (min-width:768px){
+    .member-form{
+        padding-left:20%;
+    }
+    .join{
+        padding-right:20%;
+    }
+    
+@media screen and (min-width:1024px){
+    .member-title{
+        margin-bottom:300px;
+    }
+}  
+}

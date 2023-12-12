@@ -1,0 +1,541 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keyword" content="그릇, 접시, 찻잔, 공기, 대접, 컵">
+        <meta name="description" content="아름다움을 담아드려요">
+        <meta name="author" content="Modern Plate">
+        <meta property="og:type" content="html">
+        <meta property="og:title" content="Modern Plate">
+        <meta property="og:description" content="아름다움을 담아드려요">
+        <meta property="og:image" content="./images/main/table-setting-1926936_1920.jpg">
+        <meta property="og:url" content="http://limlim.dothome.co.kr/modern-plate">
+        <title>Modern Plate</title>
+        <link rel="shortcut icon" href="./images/favicon-color.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="./css/common.css">
+        <link rel="stylesheet" href="./css/subpage.css">
+        <script src="./js/jquery-3.7.1.min.js"></script>
+        <script src="./js/common.js"></script>
+        <script src="./js/subpage.js"></script>
+    </head>
+    <body>
+        <header>
+            <div id="header-container">
+                <h1>
+                    <a href="index.html">
+                        <img src="./images/ms-logo-1120-3.png" alt="로고">
+                    </a>
+                </h1>
+                <nav id="icon-nav">
+                    <a href="#"><span class="fa fa-map-marker icon"></span></a>
+                    <a href="#"><span class="fa fa-shopping-cart icon"></span></a>
+                    <a href="login.html"><span class="fa fa-user icon"></span></a>
+                    <a href="#"><span class="fa fa-bars hamburger"></span></a>
+                </nav>
+                <nav id="mobile-nav">
+                    <div class="global-nav">
+                        <button class="m-close">X</button>
+                        <form class="search" action="">
+                            <div class="search-box">
+                                <input type="search" name="s-box" size="11">
+                            </div>
+                            <div class="glass">
+                                <input type="submit" id="s-txt"><label for="s-txt"><span class="fa fa-search s-glass"></span></label>
+                            </div>
+                        </form>
+                        <div id="m-menu-group">
+                            <div class="m-menu">
+                                <a href="#">브랜드 소개<span class="fa fa-angle-right arrow"></span></a>
+                                <div class="m-drop-down">
+                                    <a href="#">브랜드 소개</a>
+                                    <a href="#">매장 정보</a>
+                                </div>
+                            </div>
+                            <div class="m-menu">
+                                <a href="subpage.html">접시 그릇<span class="fa fa-angle-right arrow"></span></a>
+                                <div class="m-drop-down">
+                                    <a href="#">접시</a>
+                                    <a href="#">볼 / 공기 / 대접</a>
+                                    <a href="#">찬기 / 종지</a>
+                                </div>
+                            </div>
+                            <div class="m-menu">
+                                <a href="#">컵 잔<span class="fa fa-angle-right arrow"></span></a>
+                                <div class="m-drop-down">
+                                    <a href="#">찻잔</a>
+                                    <a href="#">물잔</a>
+                                    <a href="#">머그</a>
+                                    <a href="#">와인잔</a>
+                                    <a href="#">받침</a>
+                                </div>
+                            </div>
+                            <div class="m-menu">
+                                <a href="#">포트 기타<span class="fa fa-angle-right arrow"></span></a>
+                                <div class="m-drop-down">
+                                    <a href="#">커피포트</a>
+                                    <a href="#">티포트</a>
+                                    <a href="#">스푼 / 포크 / 나이프</a>
+                                </div>
+                            </div>
+                            <div class="m-menu">
+                                <a href="#">세트<span class="fa fa-angle-right arrow"></span></a>
+                                <div class="m-drop-down">
+                                    <a href="#">홈세트</a>
+                                    <a href="#">티세트</a>
+                                </div>
+                            </div>
+                            <div class="m-menu">
+                                <a href="#">세일</a>
+                            </div>
+                        </div>
+                        <div class="m-login-group">
+                            <a href="login.html">로그인&nbsp;|</a>
+                            <a href="member.html">&nbsp;회원가입&nbsp;|</a>
+                            <a href="#">&nbsp;고객센터</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="desk-nav-wrap">
+                <nav id="desk-nav">
+                    <!-- relative를 여기에 줘서 너비를 가져가게 만들고 -->
+                    <div class="menu">
+                        <a href="#">브랜드 소개</a>
+                        <div class="drop-down">
+                            <div class="drop-down-group">
+                            <!-- 좌측 메뉴 글씨와 우측 이미지 그룹을 따로 나누고 -->
+                                <div class="drop-down-txt">
+                                    <a href="#">브랜드 소개</a>
+                                    <a href="#">매장 정보</a>
+                                </div>
+                                <div class="drop-down-img">
+                                    <div class="drop-down-img-section">
+                                        <img src="./images/dropdown/stack-of-plates-629987_1920.jpg" alt="접시 산">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <a href="subpage.html">접시 그릇</a>
+                        <div class="drop-down">
+                            <div class="drop-down-group">
+                                <div class="drop-down-txt">
+                                    <a href="#">접시</a>
+                                    <a href="#">볼 / 공기 / 대접</a>
+                                    <a href="#">찬기 / 종지</a>
+                                </div>
+                                <div class="drop-down-img">
+                                    <div class="drop-down-img-section">
+                                        <img src="./images/dropdown/dishes-938747_1920.jpg" alt="흰 접시">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <a href="#">컵 잔</a>
+                        <div class="drop-down">
+                            <div class="drop-down-group">
+                                <div class="drop-down-txt">
+                                    <a href="#">찻잔</a>
+                                    <a href="#">물잔</a>
+                                    <a href="#">머그</a>
+                                    <a href="#">와인잔</a>
+                                    <a href="#">받침</a>
+                                </div>
+                                <div class="drop-down-img">
+                                    <div class="drop-down-img-section">
+                                        <img src="./images/dropdown/restaurant-449952_1920-3.jpg" alt="와인잔">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <a href="#">포트 기타</a>
+                        <div class="drop-down">
+                            <div class="drop-down-group">
+                                <div class="drop-down-txt">
+                                    <a href="#">커피포트</a>
+                                    <a href="#">티포트</a>
+                                    <a href="#">스푼 / 포크 / 나이프</a>
+                                </div>
+                                <div class="drop-down-img">
+                                    <div class="drop-down-img-section">
+                                        <img src="./images/dropdown/pexels-nicola-barts-7937400.jpg" alt="커피 포트">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <a href="#">세트</a>
+                        <div class="drop-down">
+                            <div class="drop-down-group">
+                                <div class="drop-down-txt">
+                                    <a href="#">홈세트</a>
+                                    <a href="#">티세트</a>
+                                </div>
+                                <div class="drop-down-img">
+                                    <div class="drop-down-img-section">
+                                        <img src="./images/dropdown/breakfast-1835478_1920.jpg" alt="식기 세트">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <a href="#">세일</a>
+                    </div>
+                    <div class="full-back">&nbsp;</div>
+                </nav>
+            </div>
+        </header>
+        <section>
+            <h2>접시/그릇</h2>
+            <div id="menu-position">
+                <div id="menu-tab">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                    <a href="subpage.html">
+                                        <img src="./images/dropdown/dishes-938747_1920-2.jpg" alt="흰 접시">
+                                        <p>접시/그릇</p>
+                                    </a>
+                            </div>
+                            <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./images/dropdown/restaurant-449952_1920-2.jpg" alt="와인잔">
+                                        <p>컵/잔</p>
+                                    </a> 
+                            </div>
+                            <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./images/dropdown/pexels-nicola-barts-7937400-2.jpg" alt="커피 포트">
+                                        <p>포트/기타</p>
+                                    </a>
+                            </div>
+                            <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./images/dropdown/breakfast-1835478_1920-2.jpg" alt="식기 세트">
+                                        <p>세트</p>
+                                    </a>
+                            </div>
+                            <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./images/dropdown/stack-of-plates-629987_1920-2.jpg" alt="접시 산">
+                                        <p>세일</p>
+                                    </a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <div id="sort">
+                <select class="sort" style="border:1px solid rgb(187, 186, 186);">
+                    <option value="#">신상품</option>
+                    <option value="#">인기상품</option>
+                    <option value="#">상품명</option>
+                    <option value="#">낮은가격</option>
+                    <option value="#">높은가격</option>
+                    <option value="#">사용후기</option>
+                </select>
+                </div>
+            </div>
+            <div id="list">
+                <div>
+                    <a href="detail.html">
+                        <img src="./images/best/crop/camila-pusch-jwV6GdZoqUI-unsplash.jpg" alt="진흙 접시">
+                    </a>
+                    <button class="like-x"><span class="fa fa-heart-o"></span></button>
+                    <button class="like-o"><span class="fa fa-heart"></span></button>
+                    <p class="product">프로젝트 넥스터 믹서기</p>
+                    <p class="x-price">67,000원</p>
+                    <p class="o-price">55,000원</p>
+                </div>
+                <div>
+                    <a href="detail.html">
+                        <img src="./images/best/crop/camila-pusch-jwV6GdZoqUI-unsplash.jpg" alt="진흙 접시">
+                    </a>
+                    <button class="like-x"><span class="fa fa-heart-o"></span></button>
+                    <button class="like-o"><span class="fa fa-heart"></span></button>
+                    <p class="product">프로젝트 넥스터 믹서기</p>
+                    <p class="x-price">67,000원</p>
+                    <p class="o-price">55,000원</p>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="./images/best/crop/camila-pusch-jwV6GdZoqUI-unsplash.jpg" alt="진흙 접시">
+                    </a>
+                    <button class="like-x"><span class="fa fa-heart-o"></span></button>
+                    <button class="like-o"><span class="fa fa-heart"></span></button>
+                    <p class="product">프로젝트 넥스터 믹서기</p>
+                    <p class="x-price">67,000원</p>
+                    <p class="o-price">55,000원</p>
+                </div>
+                <div>
+                    <a href="detail.html">
+                        <img src="./images/best/crop/camila-pusch-jwV6GdZoqUI-unsplash.jpg" alt="진흙 접시">
+                    </a>
+                    <button class="like-x"><span class="fa fa-heart-o"></span></button>
+                    <button class="like-o"><span class="fa fa-heart"></span></button>
+                    <p class="product">프로젝트 넥스터 믹서기</p>
+                    <p class="x-price">67,000원</p>
+                    <p class="o-price">55,000원</p>
+                </div>
+                <div>
+                    <a href="detail.html">
+                        <img src="./images/best/crop/camila-pusch-jwV6GdZoqUI-unsplash.jpg" alt="진흙 접시">
+                    </a>
+                    <button class="like-x"><span class="fa fa-heart-o"></span></button>
+                    <button class="like-o"><span class="fa fa-heart"></span></button>
+                    <p class="product">프로젝트 넥스터 믹서기</p>
+                    <p class="x-price">67,000원</p>
+                    <p class="o-price">55,000원</p>
+                </div>
+                <div>
+                    <a href="detail.html">
+                        <img src="./images/best/crop/camila-pusch-jwV6GdZoqUI-unsplash.jpg" alt="진흙 접시">
+                    </a>
+                    <button class="like-x"><span class="fa fa-heart-o"></span></button>
+                    <button class="like-o"><span class="fa fa-heart"></span></button>
+                    <p class="product">프로젝트 넥스터 믹서기</p>
+                    <p class="x-price">67,000원</p>
+                    <p class="o-price">55,000원</p>
+                </div>
+                <div>
+                    <a href="detail.html">
+                        <img src="./images/best/crop/camila-pusch-jwV6GdZoqUI-unsplash.jpg" alt="진흙 접시">
+                    </a>
+                    <button class="like-x"><span class="fa fa-heart-o"></span></button>
+                    <button class="like-o"><span class="fa fa-heart"></span></button>
+                    <p class="product">프로젝트 넥스터 믹서기</p>
+                    <p class="x-price">67,000원</p>
+                    <p class="o-price">55,000원</p>
+                </div>
+                <div>
+                    <a href="detail.html">
+                        <img src="./images/best/crop/camila-pusch-jwV6GdZoqUI-unsplash.jpg" alt="진흙 접시">
+                    </a>
+                    <button class="like-x"><span class="fa fa-heart-o"></span></button>
+                    <button class="like-o"><span class="fa fa-heart"></span></button>
+                    <p class="product">프로젝트 넥스터 믹서기</p>
+                    <p class="x-price">67,000원</p>
+                    <p class="o-price">55,000원</p>
+                </div>
+                <div>
+                    <a href="detail.html">
+                        <img src="./images/best/crop/camila-pusch-jwV6GdZoqUI-unsplash.jpg" alt="진흙 접시">
+                    </a>
+                    <button class="like-x"><span class="fa fa-heart-o"></span></button>
+                    <button class="like-o"><span class="fa fa-heart"></span></button>
+                    <p class="product">프로젝트 넥스터 믹서기</p>
+                    <p class="x-price">67,000원</p>
+                    <p class="o-price">55,000원</p>
+                </div>
+                <div>
+                    <a href="detail.html">
+                        <img src="./images/best/crop/camila-pusch-jwV6GdZoqUI-unsplash.jpg" alt="진흙 접시">
+                    </a>
+                    <button class="like-x"><span class="fa fa-heart-o"></span></button>
+                    <button class="like-o"><span class="fa fa-heart"></span></button>
+                    <p class="product">프로젝트 넥스터 믹서기</p>
+                    <p class="x-price">67,000원</p>
+                    <p class="o-price">55,000원</p>
+                </div>
+                <div>
+                    <a href="detail.html">
+                        <img src="./images/best/crop/camila-pusch-jwV6GdZoqUI-unsplash.jpg" alt="진흙 접시">
+                    </a>
+                    <button class="like-x"><span class="fa fa-heart-o"></span></button>
+                    <button class="like-o"><span class="fa fa-heart"></span></button>
+                    <p class="product">프로젝트 넥스터 믹서기</p>
+                    <p class="x-price">67,000원</p>
+                    <p class="o-price">55,000원</p>
+                </div>
+                <div>
+                    <a href="detail.html">
+                        <img src="./images/best/crop/camila-pusch-jwV6GdZoqUI-unsplash.jpg" alt="진흙 접시">
+                    </a>
+                    <button class="like-x"><span class="fa fa-heart-o"></span></button>
+                    <button class="like-o"><span class="fa fa-heart"></span></button>
+                    <p class="product">프로젝트 넥스터 믹서기</p>
+                    <p class="x-price">67,000원</p>
+                    <p class="o-price">55,000원</p>
+                </div>
+                <div>
+                    <a href="detail.html">
+                        <img src="./images/best/crop/camila-pusch-jwV6GdZoqUI-unsplash.jpg" alt="진흙 접시">
+                    </a>
+                    <button class="like-x"><span class="fa fa-heart-o"></span></button>
+                    <button class="like-o"><span class="fa fa-heart"></span></button>
+                    <p class="product">프로젝트 넥스터 믹서기</p>
+                    <p class="x-price">67,000원</p>
+                    <p class="o-price">55,000원</p>
+                </div>
+                <div>
+                    <a href="detail.html">
+                        <img src="./images/best/crop/camila-pusch-jwV6GdZoqUI-unsplash.jpg" alt="진흙 접시">
+                    </a>
+                    <button class="like-x"><span class="fa fa-heart-o"></span></button>
+                    <button class="like-o"><span class="fa fa-heart"></span></button>
+                    <p class="product">프로젝트 넥스터 믹서기</p>
+                    <p class="x-price">67,000원</p>
+                    <p class="o-price">55,000원</p>
+                </div>
+                <div>
+                    <a href="detail.html">
+                        <img src="./images/best/crop/camila-pusch-jwV6GdZoqUI-unsplash.jpg" alt="진흙 접시">
+                    </a>
+                    <button class="like-x"><span class="fa fa-heart-o"></span></button>
+                    <button class="like-o"><span class="fa fa-heart"></span></button>
+                    <p class="product">프로젝트 넥스터 믹서기</p>
+                    <p class="x-price">67,000원</p>
+                    <p class="o-price">55,000원</p>
+                </div>
+                <div>
+                    <a href="detail.html">
+                        <img src="./images/best/crop/camila-pusch-jwV6GdZoqUI-unsplash.jpg" alt="진흙 접시">
+                    </a>
+                    <button class="like-x"><span class="fa fa-heart-o"></span></button>
+                    <button class="like-o"><span class="fa fa-heart"></span></button>
+                    <p class="product">프로젝트 넥스터 믹서기</p>
+                    <p class="x-price">67,000원</p>
+                    <p class="o-price">55,000원</p>
+                </div>
+                <div>
+                    <a href="detail.html">
+                        <img src="./images/best/crop/camila-pusch-jwV6GdZoqUI-unsplash.jpg" alt="진흙 접시">
+                    </a>
+                    <button class="like-x"><span class="fa fa-heart-o"></span></button>
+                    <button class="like-o"><span class="fa fa-heart"></span></button>
+                    <p class="product">프로젝트 넥스터 믹서기</p>
+                    <p class="x-price">67,000원</p>
+                    <p class="o-price">55,000원</p>
+                </div>
+                <div>
+                    <a href="detail.html">
+                        <img src="./images/best/crop/camila-pusch-jwV6GdZoqUI-unsplash.jpg" alt="진흙 접시">
+                    </a>
+                    <button class="like-x"><span class="fa fa-heart-o"></span></button>
+                    <button class="like-o"><span class="fa fa-heart"></span></button>
+                    <p class="product">프로젝트 넥스터 믹서기</p>
+                    <p class="x-price">67,000원</p>
+                    <p class="o-price">55,000원</p>
+                </div>
+                <div>
+                    <a href="detail.html">
+                        <img src="./images/best/crop/camila-pusch-jwV6GdZoqUI-unsplash.jpg" alt="진흙 접시">
+                    </a>
+                    <button class="like-x"><span class="fa fa-heart-o"></span></button>
+                    <button class="like-o"><span class="fa fa-heart"></span></button>
+                    <p class="product">프로젝트 넥스터 믹서기</p>
+                    <p class="x-price">67,000원</p>
+                    <p class="o-price">55,000원</p>
+                </div>
+                <div>
+                    <a href="detail.html">
+                        <img src="./images/best/crop/camila-pusch-jwV6GdZoqUI-unsplash.jpg" alt="진흙 접시">
+                    </a>
+                    <button class="like-x"><span class="fa fa-heart-o"></span></button>
+                    <button class="like-o"><span class="fa fa-heart"></span></button>
+                    <p class="product">프로젝트 넥스터 믹서기</p>
+                    <p class="x-price">67,000원</p>
+                    <p class="o-price">55,000원</p>
+                </div>
+            </div>
+            <div id="page-button">
+                <div class="page-left">
+                    <a href="#"><span class="fa fa-angle-double-left"></span></a>
+                    <a href="#"><span class="fa fa-angle-left"></span></a>
+                </div>
+                <div class="page-number">
+                    <a href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                </div>
+                <div class="page-right">
+                    <a href="#"><span class="fa fa-angle-right"></span></a>
+                    <a href="#"><span class="fa fa-angle-double-right"></span></a>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div id="footer-left">
+                <div class="footer-customer">
+                    <h2 class="footer-title">고객센터</h2>
+                    <h2 class="footer-nember">031-000-0000</h2>
+                    <p>월-금 오전 10:00 - 오후5:00</p>
+                    <p>점심시간 오후 12:00 - 오후 1:00</p>
+                    <p>토/일요일, 공휴일 휴무</p>
+                </div>
+            </div>
+            <div id="footer-right">
+                <p>상호:모던플레이트</p>
+                <div class="footer-txt1">
+                    <p class="txt1-1">대표자:아무개</p>
+                    <p>개인정보 보호책임자:아무개</p>
+                </div>
+                <div class="footer-txt3">
+                    <p class="txt3-1">사업자등록번호:000-00-00000</p>
+                    <p>통신판매업 신고:2023-경기의정부-0000</p>
+                </div>
+                <p>경기도 의정부시 신흥로 258번길 25 해태프라자 2층</p>
+                <div class="footer-txt2">
+                    <p class="txt2-1">031-000-0000</p>
+                    <p>modernplate@ezenac.co.kr</p>
+                </div>
+                <p class="copyright">COPYRIGHT&copy; MODERNPLATE. all rights reserved</p>
+                <div class="terms">
+                    <a href="#">이용약관 |</a>
+                    <a href="#">이용안내 |</a>
+                    <a href="#">개인정보 처리방침</a>
+                </div>
+            </div>
+        </footer>
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 2,
+                spaceBetween: 30,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                640: {
+                slidesPerView: 2,
+                spaceBetween: 30,
+                },
+                768: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+                },
+                1024: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+                },
+                1280:{
+                slidesPerView: 4,
+                spaceBetween: 30,
+                },
+                1440: {
+                slidesPerView: 5,
+                spaceBetween: 30,
+                },
+            },
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,211 @@
+@charset "utf-8";
+
+.login-title{
+    width:100%;
+    padding-top:100px;
+    text-align:center;
+    font-size:1.5rem;
+    margin-bottom:80px;
+    font-weight:600;
+}
+.login-form{
+    width:100%;
+    text-align:center;
+    /* border:1px solid black; */
+    margin-bottom:500px;
+}
+.id,
+.password{
+    width:100%;
+    height:50px;
+    /* border:1px solid black; */
+    margin:20px 0;
+    
+}
+input[name=id],
+input[name=password]{
+    width:300px;
+    height:100%;
+    border-style:none none solid none;
+    border-width:1px;
+}
+.checkbox{
+    margin-top:5px;
+    width:300px;
+    margin:auto;
+    font-size:0.95rem;
+    display:flex;
+    align-items:center;
+    justify-content:left;
+    /* border:1px solid black; */
+}
+input[id=check]+label{
+    width:20px;
+    height:20px;
+    border:1px solid gray;
+    display:inline-block;
+    margin-right:10px;
+    cursor:pointer;
+}
+input[id=check]:checked+label{
+    background:url(../images/login/icon_input-check.png);
+    background-repeat:no-repeat;
+    background-size:100%;
+}
+input[id=check]{
+    display:none;
+}
+.login-button{
+    width:100%;
+    margin-top:25px;
+    margin-bottom:10px;
+}
+input[name=login-button]{
+    width:300px;
+    height:60px;
+    background-color:transparent;
+    border:none;
+    background-color:rgb(159, 156, 173);
+    color:whitesmoke;
+    font-weight:600;
+    font-size:1.1rem;
+}
+.social-login{
+    width:300px;
+    /* border:1px solid black; */
+    margin:auto;
+}
+.naver{
+    width:100%;
+    height:60px;
+    background-color:#03c75a;
+    margin-bottom:10px;
+    border:none;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-right:30px;
+}
+.naver p{
+    font-size:1.1rem;
+}
+.kakao p{
+    font-size:1.1rem;
+}
+.kakao{
+    width:100%;
+    height:60px;
+    background-color:#fee500;
+    border:none;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-right:25px;
+}
+.naver img{
+    object-fit:contain;
+    width:30%;
+    height:90%;
+}
+.kakao img{
+    object-fit:contain;
+    width:30%;
+    height:90%;
+}
+.member{
+    width:200px;
+    height:60px;
+    background-color:rgb(159, 156, 173);
+    border:none;
+    margin-top:10px;
+    border-radius:100px;
+}
+.member a{
+    color:whitesmoke;
+    font-weight:600;
+    font-size:1.1rem;
+}
+.membership{
+    color:black;
+    /* border:1px solid black; */
+    font-size:1.2rem;
+    margin-bottom:10px;
+}
+.idps{
+    font-size:1.1rem;
+    margin:auto;
+    margin-top:20px;
+    margin-bottom:100px;
+    /* border:1px solid black; */
+    display:flex;
+    justify-content:space-around;
+    width:250px;
+}
+.idps a{
+    color:gray;
+}
+
+
+
+
+
+@media screen and (min-width:640px){
+    
+}
+@media screen and (min-width:1024px){
+    .login-title{
+        font-size:1.5rem
+    }
+    input[name=id],
+    input[name=password]{
+        width:400px;
+        height:40px;
+        font-size:1rem;
+    }
+    .checkbox{
+        width:400px;
+        font-size:1rem;
+        margin-top:20px;
+    }
+    .login-button{
+        margin-top:40px;
+    }
+    input[name=login-button]{
+        width:400px;
+        height:60px;
+        font-size:1rem;
+    }
+    .social-login{
+        width:400px;
+    }
+    .naver{
+        font-size:1rem;
+        padding-right:60px;
+        height:60px;
+    }
+    .kakao{
+        font-size:1rem;
+        padding-right:50px;
+        height:60px;
+    }
+    .naver img{
+        height:100%;
+    }
+    .kakao img{
+        height:100%;
+    }
+    .member{
+        width:250px;
+        height:70px;
+        font-size:1rem;
+    }
+    .membership{
+        font-size:1.2rem;
+        font-weight:500;
+    }
+    .idps{
+        font-size:1rem;
+        margin-top:20px;
+        width:280px;
+    }
+}

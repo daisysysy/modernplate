@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keyword" content="그릇, 접시, 찻잔, 공기, 대접, 컵">
+        <meta name="description" content="아름다움을 담아드려요">
+        <meta name="author" content="Modern Plate">
+        <meta property="og:type" content="html">
+        <meta property="og:title" content="Modern Plate">
+        <meta property="og:description" content="아름다움을 담아드려요">
+        <meta property="og:image" content="./images/main/table-setting-1926936_1920.jpg">
+        <meta property="og:url" content="http://limlim.dothome.co.kr/modern-plate">
+        <title>Modern Plate</title>
+        <link rel="shortcut icon" href="./images/favicon-color.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="./css/common.css">
+        <link rel="stylesheet" href="./css/login.css">
+        <script src="./js/jquery-3.7.1.min.js"></script>
+        <script src="./js/common.js"></script>
+        <script src="./js/login.js"></script>
+    </head>
+    <body>
+        <header>
+            <div id="header-container">
+                <h1>
+                    <a href="index.html">
+                        <img src="./images/ms-logo-1120-3.png" alt="로고">
+                    </a>
+                </h1>
+                <nav id="icon-nav">
+                    <a href="#"><span class="fa fa-map-marker icon"></span></a>
+                    <a href="#"><span class="fa fa-shopping-cart icon"></span></a>
+                    <a href="login.html"><span class="fa fa-user icon"></span></a>
+                    <a href="#"><span class="fa fa-bars hamburger"></span></a>
+                </nav>
+                <nav id="mobile-nav">
+                    <div class="global-nav">
+                        <button class="m-close">X</button>
+                        <form class="search" action="">
+                            <div class="search-box">
+                                <input type="search" name="s-box" size="13">
+                            </div>
+                            <div class="glass">
+                                <input type="submit" id="s-txt"><label for="s-txt"><span class="fa fa-search s-glass"></span></label>
+                            </div>
+                        </form>
+                        <div id="m-menu-group">
+                            <div class="m-menu">
+                                <a href="#">브랜드 소개<span class="fa fa-angle-right arrow"></span></a>
+                                <div class="m-drop-down">
+                                    <a href="#">브랜드 소개</a>
+                                    <a href="#">매장 정보</a>
+                                </div>
+                            </div>
+                            <div class="m-menu">
+                                <a href="subpage.html">접시 그릇<span class="fa fa-angle-right arrow"></span></a>
+                                <div class="m-drop-down">
+                                    <a href="#">접시</a>
+                                    <a href="#">볼 / 공기 / 대접</a>
+                                    <a href="#">찬기 / 종지</a>
+                                </div>
+                            </div>
+                            <div class="m-menu">
+                                <a href="#">컵 잔<span class="fa fa-angle-right arrow"></span></a>
+                                <div class="m-drop-down">
+                                    <a href="#">찻잔</a>
+                                    <a href="#">물잔</a>
+                                    <a href="#">머그</a>
+                                    <a href="#">와인잔</a>
+                                    <a href="#">받침</a>
+                                </div>
+                            </div>
+                            <div class="m-menu">
+                                <a href="#">포트 기타<span class="fa fa-angle-right arrow"></span></a>
+                                <div class="m-drop-down">
+                                    <a href="#">커피포트</a>
+                                    <a href="#">티포트</a>
+                                    <a href="#">스푼 / 포크 / 나이프</a>
+                                </div>
+                            </div>
+                            <div class="m-menu">
+                                <a href="#">세트<span class="fa fa-angle-right arrow"></span></a>
+                                <div class="m-drop-down">
+                                    <a href="#">홈세트</a>
+                                    <a href="#">티세트</a>
+                                </div>
+                            </div>
+                            <div class="m-menu">
+                                <a href="#">세일</a>
+                            </div>
+                        </div>
+                        <div class="m-login-group">
+                            <a href="login.html">로그인 |</a>
+                            <a href="member.html">회원가입 |</a>
+                            <a href="#">고객센터</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="desk-nav-wrap">
+                <nav id="desk-nav">
+                    <!-- relative를 여기에 줘서 너비를 가져가게 만들고 -->
+                    <div class="menu">
+                        <a href="#">브랜드 소개</a>
+                        <div class="drop-down">
+                            <div class="drop-down-group">
+                            <!-- 좌측 메뉴 글씨와 우측 이미지 그룹을 따로 나누고 -->
+                                <div class="drop-down-txt">
+                                    <a href="#">브랜드 소개</a>
+                                    <a href="#">매장 정보</a>
+                                </div>
+                                <div class="drop-down-img">
+                                    <div class="drop-down-img-section">
+                                        <img src="./images/dropdown/stack-of-plates-629987_1920.jpg" alt="접시 산">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <a href="subpage.html">접시 그릇</a>
+                        <div class="drop-down">
+                            <div class="drop-down-group">
+                                <div class="drop-down-txt">
+                                    <a href="#">접시</a>
+                                    <a href="#">볼 / 공기 / 대접</a>
+                                    <a href="#">찬기 / 종지</a>
+                                </div>
+                                <div class="drop-down-img">
+                                    <div class="drop-down-img-section">
+                                        <img src="./images/dropdown/dishes-938747_1920.jpg" alt="흰 접시">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <a href="#">컵 잔</a>
+                        <div class="drop-down">
+                            <div class="drop-down-group">
+                                <div class="drop-down-txt">
+                                    <a href="#">찻잔</a>
+                                    <a href="#">물잔</a>
+                                    <a href="#">머그</a>
+                                    <a href="#">와인잔</a>
+                                    <a href="#">받침</a>
+                                </div>
+                                <div class="drop-down-img">
+                                    <div class="drop-down-img-section">
+                                        <img src="./images/dropdown/restaurant-449952_1920-3.jpg" alt="와인잔">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <a href="#">포트 기타</a>
+                        <div class="drop-down">
+                            <div class="drop-down-group">
+                                <div class="drop-down-txt">
+                                    <a href="#">커피포트</a>
+                                    <a href="#">티포트</a>
+                                    <a href="#">스푼 / 포크 / 나이프</a>
+                                </div>
+                                <div class="drop-down-img">
+                                    <div class="drop-down-img-section">
+                                        <img src="./images/dropdown/pexels-nicola-barts-7937400.jpg" alt="커피 포트">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <a href="#">세트</a>
+                        <div class="drop-down">
+                            <div class="drop-down-group">
+                                <div class="drop-down-txt">
+                                    <a href="#">홈세트</a>
+                                    <a href="#">티세트</a>
+                                </div>
+                                <div class="drop-down-img">
+                                    <div class="drop-down-img-section">
+                                        <img src="./images/dropdown/breakfast-1835478_1920.jpg" alt="식기 세트">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <a href="#">세일</a>
+                    </div>
+                    <div class="full-back">&nbsp;</div>
+                </nav>
+            </div>
+        </header>
+        <section>
+            <h2 class="login-title">로그인</h2>
+            <form class="login-form">
+                <div class="id">
+                    <input type="text" name="id" placeholder="아이디" minlength="4" maxlength="12">
+                </div>
+                <div class="password">
+                    <input type="password" name="password" placeholder="비밀번호" minlength="8" maxlength="16">
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="check"><label for="check"></label> 아이디 저장
+                </div>
+                <div class="login-button">
+                    <input type="submit" name="login-button" value="로그인">
+                </div>
+                <div class="social-login">
+                    <button class="naver">
+                        <img src="./images/login/naver2.png" alt="네이버 로고">
+                        <p>네이버 로그인</p>
+                    </button>
+                    <button class="kakao">
+                        <img src="./images/login/kakao2.png" alt="카카오 말풍선">
+                        <p>카카오 계정 로그인</p>
+                    </button>
+                </div>
+                <div class="idps">
+                    <a href="#">아이디 찾기</a>
+                    <a href="#">비밀번호 찾기</a>
+                </div>
+                <p class="membership">아직 회원이 아니신가요?</p>
+                <button class="member"><a href="member.html">회원가입</a></button>
+            </form>
+        </section>
+        <footer>
+            푸터
+        </footer>
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            loop: true,
+            autoplay: {
+                delay: 4000,
+                disableOnInteraction: false,
+            },
+            });
+            var swiper = new Swiper(".saleSwiper", {
+                slidesPerView: 2,
+                spaceBetween: 22,
+                breakpoints: {
+                    640: {
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                    },
+                    768: {
+                    slidesPerView: 4,
+                    spaceBetween: 20,
+                    },
+                    1024: {
+                    slidesPerView: 5,
+                    spaceBetween: 20,
+                    },
+                },
+                scrollbar: {
+                    el: ".swiper-scrollbar",
+                    hide: false,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                });
+        </script>
+    </body>
+</html>
