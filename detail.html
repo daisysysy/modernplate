@@ -199,34 +199,37 @@
         <section>
             <main>
                 <div id="product">
-                    <div class="product-image">
-                        <div class="product-slider">
-                            <div class="product-slide">
-                                <img src="./images/best/crop/pexels-piotr-arnoldes-6025807.jpg" alt="">
-                            </div>
-                            <div class="product-slide">
-                                <img src="./images/best/crop/birti-ishar-UOYLeQNIBwQ-unsplash.jpg" alt="">
-                            </div>
-                            <div class="product-slide">
-                                <img src="./images/best/crop/martin-baron-IxhC5bboziA-unsplash.jpg" alt="">
+                    <div class="product">
+                        <div class="product-image">
+                            <div class="product-slider">
+                                <div class="product-slide">
+                                    <img src="./images/best/crop/pexels-piotr-arnoldes-6025807.jpg" alt="">
+                                </div>
+                                <div class="product-slide">
+                                    <img src="./images/best/crop/birti-ishar-UOYLeQNIBwQ-unsplash.jpg" alt="">
+                                </div>
+                                <div class="product-slide">
+                                    <img src="./images/best/crop/martin-baron-IxhC5bboziA-unsplash.jpg" alt="">
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div id="page">
-                        <div class="pagenation">
-                            <span class="dot active">
-                                <img src="./images/best/crop/pexels-piotr-arnoldes-6025807.jpg" alt="">
-                            </span>
-                            <span class="dot">
-                                <img src="./images/best/crop/birti-ishar-UOYLeQNIBwQ-unsplash.jpg" alt="">
-                            </span>
-                            <span class="dot">
-                                <img src="./images/best/crop/martin-baron-IxhC5bboziA-unsplash.jpg" alt="">
-                            </span>
+                        <div id="page">
+                            <div class="pagenation">
+                                <span class="dot active">
+                                    <img src="./images/best/crop/pexels-piotr-arnoldes-6025807.jpg" alt="">
+                                </span>
+                                <span class="dot">
+                                    <img src="./images/best/crop/birti-ishar-UOYLeQNIBwQ-unsplash.jpg" alt="">
+                                </span>
+                                <span class="dot">
+                                    <img src="./images/best/crop/martin-baron-IxhC5bboziA-unsplash.jpg" alt="">
+                                </span>
+                            </div>
                         </div>
                     </div>
                     <div class="product-menu">
-                        <h2 class="name">프로젝트 넥스터 믹서기</h2>
+                        <div class="product-info">
+                            <h2 class="name">프로젝트 넥스터 믹서기</h2>
                         <div class="price">
                             <p><s>67,000</s>원</p>
                             <div class="real-price">
@@ -248,7 +251,61 @@
                                 <p>3,000원&nbsp;(50,000원 이상 구매 시 무료)</p>
                             </div>
                         </div>
+                        </div>
+                        <div class="product-button">
+
+                        </div>
                     </div>
+                </div>
+                <div id="related">
+                    <h3>관련 상품</h3>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <a href="#">
+                                <img src="./images/best/crop/bread-1836411_1920.jpg" alt="">
+                                <p>프로젝트 넥스터 믹서기</p>
+                                <p>67,000원</p>
+                            </a>
+                          </div>
+                          <div class="swiper-slide">
+                            <a href="#">
+                                <img src="./images/best/crop/camila-pusch-jwV6GdZoqUI-unsplash.jpg" alt="">
+                                <p>프로젝트 넥스터 믹서기</p>
+                                <p>67,000원</p>
+                            </a>
+                          </div>
+                          <div class="swiper-slide">
+                            <a href="#">
+                                <img src="./images/best/crop/charlesdeluvio-D-vDQMTfAAU-unsplash.jpg" alt="">
+                                <p>프로젝트 넥스터 믹서기</p>
+                                <p>67,000원</p>
+                            </a>
+                          </div>
+                          <div class="swiper-slide">
+                            <a href="#">
+                                <img src="./images/best/crop/eiliv-aceron-w0JzqJZYX_E-unsplash.jpg" alt="">
+                                <p>프로젝트 넥스터 믹서기</p>
+                                <p>67,000원</p>
+                            </a>
+                          </div>
+                          <div class="swiper-slide">
+                            <a href="#">
+                                <img src="./images/best/crop/eiliv-aceron-wnjV1AswsgM-unsplash.jpg" alt="">
+                                <p>프로젝트 넥스터 믹서기</p>
+                                <p>67,000원</p>
+                            </a>
+                          </div>
+                          <div class="swiper-slide">
+                            <a href="#">
+                                <img src="./images/best/crop/irene-kredenets-6unxGRCPg0U-unsplash.jpg" alt="">
+                                <p>프로젝트 넥스터 믹서기</p>
+                                <p>67,000원</p>
+                            </a>
+                          </div>
+                        </div>
+                        <div class="swiper-scrollbar"></div>
+                      </div>
                 </div>
             </main>
         </section>
@@ -293,52 +350,33 @@
                 <a href="#">바로구매</a>
             </div>
         </div>
+        <div class="m-fix-page"></div>
         <!-- Swiper JS -->
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
         <!-- Initialize Swiper -->
         <script>
             var swiper = new Swiper(".mySwiper", {
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-            loop: true,
-            autoplay: {
-                delay: 4000,
-                disableOnInteraction: false,
+              slidesPerView: 2,
+              spaceBetween: 10,
+              breakpoints: {
+                640: {
+                  slidesPerView: 2,
+                  spaceBetween: 10,
+                },
+                768: {
+                  slidesPerView: 3,
+                  spaceBetween: 15,
+                },
+                1024: {
+                  slidesPerView: 4,
+                  spaceBetween: 15,
+                },
+              },
+              scrollbar: {
+                    el: ".swiper-scrollbar",
+                    hide: true,
             },
             });
-            var swiper = new Swiper(".saleSwiper", {
-                slidesPerView: 2,
-                spaceBetween: 22,
-                breakpoints: {
-                    640: {
-                    slidesPerView: 3,
-                    spaceBetween: 20,
-                    },
-                    768: {
-                    slidesPerView: 4,
-                    spaceBetween: 20,
-                    },
-                    1024: {
-                    slidesPerView: 5,
-                    spaceBetween: 20,
-                    },
-                },
-                scrollbar: {
-                    el: ".swiper-scrollbar",
-                    hide: false,
-                },
-                navigation: {
-                    nextEl: ".swiper-button-next",
-                    prevEl: ".swiper-button-prev",
-                },
-                });
-        </script>
+          </script>
     </body>
 </html>

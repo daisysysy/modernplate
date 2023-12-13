@@ -139,6 +139,15 @@ $(function(){
 
 
 
+    $(window).resize(function(){
+        init();
+        $(".product-slider").stop().animate({
+            left:-sWidth*slidePosition
+        },0);
+    });
+
+
+
 
     $(window).scroll(function(){
         var $scrollTop=$(window).scrollTop();
@@ -148,4 +157,17 @@ $(function(){
             $(".m-fix").removeClass("active")
         }
     })
+
+
+
+
+    $(".m-fix a").click(function(){
+        $(".m-fix-page").addClass("active");
+    })
+
+
+
+
+
+
 })
