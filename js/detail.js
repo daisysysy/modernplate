@@ -163,7 +163,65 @@ $(function(){
 
     $(".m-fix a").click(function(){
         $(".m-fix-page").addClass("active");
+        // 버튼을 고정하고 싶을 때
+/*         $("html,body").css({overflow:"hidden"});
+        $("main").off();
+        return false; */
     })
+
+
+ /*    var score=0;
+    $(".fa-minus").click(function(){
+        score--;
+        if(score<=1){
+            score=1;
+        }
+        $(".desk-table div").text(score)
+    })
+    $(".fa-plus").click(function(){
+        score++;
+        if(score>999){
+            score=999;
+        }
+        $(".desk-table div").text(score)
+    }) */
+
+
+
+    var num,total;
+    
+    $(".fa-minus").click(function(){
+        num=Number($("#math").val());
+        $("#math").val(num-1);
+        clc(num+1)
+        $(".d-number").text(total)
+    })
+    $(".fa-plus").click(function(){
+        num=Number($("#math").val());
+        $("#math").val(num+1);
+        clc(num+1)
+        $(".d-number").text(total)
+    })
+    
+    var num,total;
+/*     $("#math").change(function(){
+        num=$(this).val();
+        clc(num)
+        $(".d-number").text(total)
+    }) */
+    function clc(price){
+        total=price*46900;
+        return total;
+    }
+
+
+
+
+
+
+
+
+
 
 
 
