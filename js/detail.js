@@ -167,6 +167,12 @@ $(function(){
 /*         $("html,body").css({overflow:"hidden"});
         $("main").off();
         return false; */
+        $(".m-fix").hide();
+        return false;
+    })
+    $(".f-close").click(function(){
+        $(".m-fix-page").removeClass("active");
+        $(".m-fix").show();
     })
 
 
@@ -188,22 +194,62 @@ $(function(){
 
 
 
-    var num,total;
+
+    // Number()는 문자를 숫자로 변환?
+
+    var total;
+    var num=0;
     
-    $(".fa-minus").click(function(){
+    // 데스크탑 - 버튼 동작
+    $(".d-minus").click(function(){
         num=Number($("#math").val());
         $("#math").val(num-1);
         clc(num+1)
         $(".d-number").text(total)
+        return false;
     })
-    $(".fa-plus").click(function(){
+    // 데스크탑 + 버튼 동작
+    $(".d-plus").click(function(){
         num=Number($("#math").val());
         $("#math").val(num+1);
         clc(num+1)
         $(".d-number").text(total)
+        return false;
+    })
+    // 데스크탑 숫자 입력 동작
+    $("#math").change(function(){
+        num=Number($("#math").val());
+        $("#math").val(num);
+        clc(num)
+        $(".d-number").text(total)
+    })
+
+
+    // 모바일 숫자 입력 동작
+    $("#f-math").change(function(){
+        num=Number($("#f-math").val());
+        $("#f-math").val(num);
+        clc(num)
+        $(".f-number").text(total)
+    })
+    // 모바일 - 버튼 동작
+    $(".f-minus").click(function(){
+        num=Number($("#f-math").val());
+        $("#f-math").val(num-1);
+        clc(num+1)
+        $(".f-number").text(total)
+        return false;
+    })
+    // 모바일 + 버튼 동작
+    $(".f-plus").click(function(){
+        num=Number($("#f-math").val());
+        $("#f-math").val(num+1);
+        clc(num+1)
+        $(".f-number").text(total)
+        return false;
     })
     
-    var num,total;
+    // 합계 함수
 /*     $("#math").change(function(){
         num=$(this).val();
         clc(num)

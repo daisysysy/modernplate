@@ -4,11 +4,12 @@
     width:100%;
     text-align:center;
     font-size:1.5rem;
-    margin-top:100px;
-    margin-bottom:150px;
+    margin-top:80px;
     font-weight:600;
+    /* border:1px solid black; */
 }
 .member-form{
+    /* border:1px solid black; */
     width:100%;
     margin:auto;
     padding-left:12%;
