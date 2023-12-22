@@ -222,6 +222,8 @@ main{
 }
 .tab{
     width:100%;
+    max-width:1000px;
+    margin:auto;
 }
 .detail-image{
     width:100%;
