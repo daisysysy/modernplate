@@ -269,6 +269,7 @@ section{
     /* border:1px solid blue; */
     display:inline-block;
     width:100%;
+    position:relative;
 }
 .full-banner-h{
     width:100%;
@@ -277,6 +278,17 @@ section{
 }
 .full-banner-h img{
     width:100%;
+}
+.full-bg{
+    width:100%;
+    height:100%;
+    background-color:transparent;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.full-bg:hover{
+    background-color:rgba(0, 0, 0, 0.1);
 }
 
 
@@ -364,8 +376,8 @@ section{
 
 
 #best-section{
-    max-width:1920px;
-    margin:auto;
+    width:100%;
+    /* border:1px solid black; */
 }
 #best-section h2{
     margin-top:150px;
@@ -531,7 +543,7 @@ section{
     /* border:1px solid black; */
 }
 .saleSwiper-wrap{
-    width:90%;
+    width:100%;
     margin:auto;
 }
 .saleSwiper{
@@ -562,6 +574,39 @@ section{
 #sale-section p{
     font-size:1.2rem;
     margin-top:3px;
+}
+
+
+
+
+#brand-section{
+    width:100%;
+}
+#brand-section>a{
+    display:inline-block;
+    width:100%;
+    position:relative;
+}
+#brand-section>a img{
+    width:100%;
+}
+.brand-bg{
+    width:100%;
+    height:100%;
+    background-color:transparent;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.brand-bg:hover{
+    background-color:rgba(0, 0, 0, 0.1);
+}
+.brand-ex{
+    width:100%;
+    margin:auto;
+}
+.brand-ex img{
+    width:100%;
 }
 
 
@@ -867,7 +912,7 @@ footer{
     }
 
     .best-top{
-        width:90%;
+        width:100%;
         margin-top:100px;
     }
 
@@ -885,7 +930,7 @@ footer{
     }
     .best-bottom{
         display:flex;
-        width:90%;
+        width:100%;
     }
     .ribbon{
         top:2.5%;
@@ -969,9 +1014,10 @@ footer{
         width:260px;
         /* border:1px solid red; */
         position:absolute;
-        top:27%;
+        top:12%;
         left:50%;
         transform:translate(-50%,0);
+        padding-left:0;
     }
     .hamburger{
         display:none;
@@ -984,6 +1030,9 @@ footer{
         width:200px;
         display:flex;
         justify-content:center;
+        position:absolute;
+        top:18%;
+        right:0;
     }
     #icon-nav a{
         /* border:1px solid black; */
@@ -1211,7 +1260,8 @@ footer{
 
 
     #best-section{
-        width:75%;
+        width:90%;
+        /* border:1px solid black; */
     }
 
     #best-section h2{
@@ -1235,10 +1285,10 @@ footer{
     } */
 
     .best-top>div{
-        width:23%;
+        width:22%;
     }
     .best-bottom>div{
-        width:23%;
+        width:22%;
     }
     .ribbon{
         top:3%;
@@ -1308,6 +1358,7 @@ footer{
 
     .saleSwiper-wrap{
         position:relative;
+        width:95%;
     }
     .saleSwiper-wrap .swiper-button-next,
     .saleSwiper-wrap .swiper-button-prev{
@@ -1567,7 +1618,9 @@ footer{
 
 
     #best-section{
-        width:64%;
+        width:70%;
+        max-width:1920px;
+        margin:auto;
     }
     .ribbon{
         top:3.5%;
@@ -1613,6 +1666,10 @@ footer{
     #sale-section{
         padding:220px 80px;
     }
+    .saleSwiper-wrap{
+        position:relative;
+        width:95%;
+    }
     .saleSwiper-wrap .swiper-button-next,
     .saleSwiper-wrap .swiper-button-prev{
         top:34%;
@@ -1623,6 +1680,17 @@ footer{
     #sale-section p{
         font-size:1rem;
     }
+
+
+
+
+
+
+
+    .brand-ex{
+        width:60%;
+    }
+    
 
 
 
