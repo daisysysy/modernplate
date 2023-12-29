@@ -1,5 +1,10 @@
 $(function(){
 
+
+
+
+    // 상품 메인 이미지 슬라이드
+
     var sWidth=0;
     var slideCount=1;
     var slideLength=0;
@@ -149,6 +154,9 @@ $(function(){
 
 
 
+    // 모바일 하단 구매 메뉴 사라지고 나타나게
+
+
     $(window).scroll(function(){
         var $scrollTop=$(window).scrollTop();
         if($scrollTop>300){
@@ -259,6 +267,27 @@ $(function(){
         total=price*46900;
         return total;
     }
+
+
+
+
+    // 탭 동작
+
+    $(".tab-list a").click(function(){
+        $(this.hash).show();
+    })
+
+
+
+
+    $(window).scroll(function(){
+        var $scrollTop=$(window).scrollTop();
+        if($scrollTop>750){
+            $(".tab-list").addClass("active")
+        }else{
+            $(".tab-list").removeClass("active")
+        }
+    })
 
 
 

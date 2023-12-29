@@ -35,7 +35,7 @@ main{
 }
 #product{
     width:100%;
-    margin-top:300px;
+    margin-top:20px;
     /* border:1px solid black; */
 }
 .product{
@@ -163,13 +163,13 @@ main{
 }
 
 #related{
-    padding:50px;
+    padding:30px;
     width:100%;
     position:relative;
     /* border:1px solid black; */
 }
 #related h3{
-    margin-top:30px;
+    margin-top:15px;
     margin-bottom:40px;
     font-size:1.3rem;
     padding-left:5px;
@@ -183,7 +183,7 @@ main{
     width:100%;
 }
 .mySwiper{
-    padding-bottom:55px;
+    padding-bottom:35px;
 }
 .swiper-slide p{
     line-height:180%;
@@ -215,6 +215,14 @@ main{
     align-items:center;
     text-align:center;
 }
+.tab-list.active{
+    position:fixed;
+    top:5%;
+    left:50%;
+    transform:translate(-50%,0);
+    width:1000px;
+    background-color:white;
+}
 .tab-list a{
     width:25%;
     display:inline-block;
@@ -237,16 +245,17 @@ main{
 
 #guide{
     width:100%;
-    margin-bottom:300px;
+    margin-bottom:150px;
 }
 .guide-box{
-    width:80%;
+    width:90%;
     margin:auto;
     border:1px solid rgba(204, 204, 204);
-    padding:120px;
+    padding:70px;
 }
 .g-delivery{
     margin-bottom:100px;
+    margin-top:20px;
 }
 .exchange{
     margin-bottom:100px;
@@ -263,6 +272,9 @@ main{
 }
 .sp{
     margin-top:20px;
+    margin-bottom:20px;
+}
+.service{
     margin-bottom:20px;
 }
 
@@ -716,6 +728,75 @@ caption{
     }
     .desk-result{
         margin-right:0;
+    }
+
+
+
+
+    #guide{
+        width:100%;
+        margin-bottom:300px;
+    }
+    .guide-box{
+        width:80%;
+        padding:120px;
+    }
+    .g-delivery{
+        margin-top:0;
+    }
+    .service{
+        margin-bottom:0;
+    }
+
+
+
+
+    
+
+    #review{
+        width:100%;
+        font-size:0.9rem;
+        margin-bottom:300px;
+    }
+    table{
+        width:100%;
+        text-align:center;
+        border-left:none;
+        border-right:none;
+    }
+    th,td{
+        padding:20px 10px 20px;
+        border-left:none;
+        border-right:none;
+    }
+    caption{
+        display:none;
+    }
+    .review-title{
+        text-align:left;
+        padding-left:20px;
+    }
+    .review-content{
+        text-align:left;
+        padding-left:30px;
+    }
+    .review-click{
+        margin-top:25px;
+        display:flex;
+        padding-left:480px;
+        justify-content:space-around;
+        align-items:center;
+    }
+    .review-all{
+        padding:10px 20px 10px;
+        border:1px solid rgb(150, 150, 150);
+        border-radius:3px;
+    }
+    .review-write{
+        padding:10px 20px 10px;
+        background-color:rgb(29, 29, 29);
+        color:whitesmoke;
+        border-radius:3px;
     }
 
 }

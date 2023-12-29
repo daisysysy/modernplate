@@ -40,7 +40,7 @@ section>h2{
     text-align:center;
     font-size:1.8rem;
     margin-top:80px;
-    margin-bottom:80px;
+    margin-bottom:65px;
     font-weight:600;
 }
 
@@ -53,10 +53,10 @@ section>h2{
 #menu-tab{
     width:80%;
     max-height:300px;
-    margin:0 auto 130px;
+    margin:0 auto 85px;
     /* border:1px solid black; */
 }
-#menu-position:after{
+/* #menu-position:after{
     content:"";
     position:absolute;
     border:1px solid rgb(194, 193, 193);
@@ -64,7 +64,7 @@ section>h2{
     transform:translate(-50%,0);
     bottom:-80px;
     width:90%;
-}
+} */
 .swiper-button-next{
     position:absolute;
     color:darkgray;
@@ -195,13 +195,13 @@ section>h2{
 }
 .page-number a{
     display:inline-block;
-    padding:7px;
+    padding:5px;
 }
 .page-left{
-    font-size:1.6rem;
+    font-size:1.5rem;
 }
 .page-right{
-    font-size:1.6rem;
+    font-size:1.5rem;
 }
 
 
@@ -241,11 +241,18 @@ section>h2{
 }
 @media screen and (min-width:768px){
 
+
+
+    section>h2{
+        font-size:2rem;
+        margin-bottom:100px;
+    }
+
     #menu-tab{
-        margin:0 auto 220px;
+        margin:0 auto 150px;
         /* border:1px solid black; */
     }
-    #menu-position:after{
+/*     #menu-position:after{
         content:"";
         position:absolute;
         border:1px solid rgb(194, 193, 193);
@@ -253,7 +260,7 @@ section>h2{
         transform:translate(-50%,0);
         bottom:-100px;
         width:90%;
-    }
+    } */
 
 
     .swiper-button-next{
@@ -266,7 +273,7 @@ section>h2{
 
 
     #sort{
-        width:75%;
+        width:85%;
         margin-bottom:20px;
     }
     .sort{
@@ -278,11 +285,11 @@ section>h2{
 
 
     #list{
-        width:75%;
-        margin-bottom:15px;
+        width:85%;
+        margin-bottom:20px;
     }
     #list div{
-        width:45%;
+        width:47%;
         margin:30px 0;
     }
 
@@ -292,7 +299,7 @@ section>h2{
     }
     .page-number a{
         display:inline-block;
-        padding:8px;
+        padding:6px;
     }
     .page-left{
         font-size:1.7rem;
@@ -317,7 +324,7 @@ section>h2{
 
 
     section>h2{
-        margin-top:100px;
+        margin-top:120px;
         margin-bottom:120px;
     }
 
@@ -332,10 +339,10 @@ section>h2{
 
 
     #menu-tab{
-        margin:0 auto 250px;
+        margin:0 auto 150px;
         /* border:1px solid black; */
     }
-    #menu-position:after{
+/*     #menu-position:after{
         content:"";
         position:absolute;
         border:1px solid rgb(194, 193, 193);
@@ -343,12 +350,12 @@ section>h2{
         transform:translate(-50%,0);
         bottom:-120px;
         width:90%;
-    }
+    } */
 
 
 
     #sort{
-        width:80%;
+        width:85%;
     }
 
 
@@ -362,11 +369,31 @@ section>h2{
 
 
     #list{
-        width:80%;
+        width:85%;
         margin-bottom:30px;
     }
     #list div{
         width:23%;
+    }
+    .product{
+        font-size:1rem;
+    }
+
+
+
+
+    .page-number{
+        margin:0 10px;
+        font-size:1.1rem;
+    }
+    .page-number a{
+        display:inline-block;
+    }
+    .page-left{
+        font-size:1.4rem;
+    }
+    .page-right{
+        font-size:1.4rem;
     }
 
 
@@ -386,11 +413,17 @@ section>h2{
 
 
 
-    #menu-tab{
-        margin:0 auto 350px;
-        /* border:1px solid black; */
+
+    section>h2{
+        margin-top:150px;
     }
-    #menu-position:after{
+
+    #menu-tab{
+        margin:0 auto 200px;
+        /* border:1px solid black; */
+        width:75%;
+    }
+/*     #menu-position:after{
         content:"";
         position:absolute;
         border:1px solid rgb(194, 193, 193);
@@ -398,7 +431,7 @@ section>h2{
         transform:translate(-50%,0);
         bottom:-150px;
         width:85%;
-    }
+    } */
 
 
 
@@ -411,7 +444,7 @@ section>h2{
 
     #list{
         width:65%;
-        margin-bottom:40px;
+        margin-bottom:50px;
     }
     #list div{
         width:23%;
@@ -420,7 +453,6 @@ section>h2{
 
 
 
-    .page-number a{
-        padding:10px;
-    }
+
+
 }
