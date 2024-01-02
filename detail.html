@@ -394,7 +394,7 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>1</td>
+                                    <td class="td-num">1</td>
                                     <td class="review-title">
                                         <a href="#">너무 예뻐요.</a>
                                     </td>
@@ -403,7 +403,7 @@
                                     <td>77</td>
                                 </tr>
                                 <tr>
-                                    <td colspan="5">
+                                    <td class="review-content-td" colspan="5">
                                         <div class="review-content">예쁜데 관리도 편해서 손이 자주 가요.</div>
                                     </td>
                                 </tr>
@@ -416,52 +416,54 @@
                         </div>
                     </div>
                     <div class="tab" id="qna">
-                        <table>
-                            <caption>상품문의</caption>
-                            <colgroup>
-                                <col style="width:100px">
-                                <col style="width:auto">
-                                <col style="width:150px">
-                                <col style="width:150px">
-                                <col style="width:100px">
-                            </colgroup>
-                            <thead>
-                                <tr>
-                                    <th scope="col">번호</th>
-                                    <th scope="col">제목</th>
-                                    <th scope="col">작성자</th>
-                                    <th scope="col">작성일</th>
-                                    <th scope="col">조회</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>2</td>
-                                    <td class="qna-title"><span class="fa fa-lock"></span>&nbsp;재입고 문의</td>
-                                    <td>이****</td>
-                                    <td>2023.11.11</td>
-                                    <td>3</td>
-                                </tr>
-                                <tr>
-                                    <td class="qna-content" colspan="5">
-                                        <div class="password-box">
-                                            <p>게시글을 확인하려면 비밀번호를 입력해주세요.</p>
-                                        </div>
-                                        <div class="qna-password">
-                                            <input type="password" id="qna-box">
-                                            <input type="button" id="qna-button" value="확인">
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>1</td>
-                                    <td><span class="fa fa-lock"></span>&nbsp;re:재입고 문의</td>
-                                    <td>모던플레이트</td>
-                                    <td>2023.11.12</td>
-                                    <td>1</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <div class="table-wrap">
+                            <table>
+                                <caption>상품문의</caption>
+                                <colgroup>
+                                    <col style="width:100px">
+                                    <col style="width:auto">
+                                    <col style="width:150px">
+                                    <col style="width:150px">
+                                    <col style="width:100px">
+                                </colgroup>
+                                <thead>
+                                    <tr>
+                                        <th scope="col">번호</th>
+                                        <th scope="col">제목</th>
+                                        <th scope="col">작성자</th>
+                                        <th scope="col">작성일</th>
+                                        <th scope="col">조회</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="td-num">2</td>
+                                        <td class="qna-title"><span class="fa fa-lock"></span>&nbsp;재입고 문의</td>
+                                        <td>이****</td>
+                                        <td>2023.11.11</td>
+                                        <td>3</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="qna-content" colspan="5">
+                                            <div class="password-box">
+                                                <p>게시글을 확인하려면 비밀번호를 입력해주세요.</p>
+                                            </div>
+                                            <div class="qna-password">
+                                                <input type="password" id="qna-box">
+                                                <input type="button" id="qna-button" value="확인">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td><span class="fa fa-lock"></span>&nbsp;re:재입고 문의</td>
+                                        <td>모던플레이트</td>
+                                        <td>2023.11.12</td>
+                                        <td>1</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                         <div class="qna-click">
                             <p>상품에 대해 궁금한 점이 있으신가요?</p>
                             <a class="qna-all" href="#">전체보기</a>

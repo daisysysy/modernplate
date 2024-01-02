@@ -280,12 +280,37 @@ $(function(){
 
 
 
+
+
+
+    // 상단 탭 메뉴 스크롤 고정
     $(window).scroll(function(){
         var $scrollTop=$(window).scrollTop();
-        if($scrollTop>750){
+        if($scrollTop>2500){
             $(".tab-list").addClass("active")
         }else{
             $(".tab-list").removeClass("active")
+        }
+    })
+
+
+
+
+    // 리뷰 동작
+    $(".review-title").click(function(){
+        if($(".review-content-td").is(":hidden")){
+            $(".review-content-td").show();
+        }else{
+            $(".review-content-td").hide();
+        }
+    })
+
+    // qna 동작
+    $(".qna-title").click(function(){
+        if($(".qna-content").is(":hidden")){
+            $(".qna-content").show();
+        }else{
+            $(".qna-content").hide();
         }
     })
 

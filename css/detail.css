@@ -215,14 +215,7 @@ main{
     align-items:center;
     text-align:center;
 }
-.tab-list.active{
-    position:fixed;
-    top:5%;
-    left:50%;
-    transform:translate(-50%,0);
-    width:1000px;
-    background-color:white;
-}
+
 .tab-list a{
     width:25%;
     display:inline-block;
@@ -307,22 +300,37 @@ caption{
     padding-left:30px;
 }
 .review-click{
+    width:100%;
     margin-top:25px;
     display:flex;
-    padding-left:480px;
-    justify-content:space-around;
+    justify-content:center;
     align-items:center;
 }
 .review-all{
-    padding:10px 20px 10px;
+    width:45%;
+    padding:10px 0;
+    text-align:center;
+    margin:0 3px;
     border:1px solid rgb(150, 150, 150);
     border-radius:3px;
 }
 .review-write{
-    padding:10px 20px 10px;
+    width:45%;
+    padding:10px 0;
+    text-align:center;
+    margin:0 3px;
     background-color:rgb(29, 29, 29);
     color:whitesmoke;
     border-radius:3px;
+}
+table colgroup{
+    display:none;
+}
+.review-click p{
+    display:none;
+}
+.qna-click p{
+    display:none;
 }
 
 
@@ -362,19 +370,25 @@ caption{
     border-radius:3px;
 }
 .qna-click{
+    width:100%;
     margin-top:25px;
     display:flex;
-    padding-left:480px;
-    justify-content:space-around;
+    justify-content:center;
     align-items:center;
 }
 .qna-all{
-    padding:10px 20px 10px;
+    width:45%;
+    padding:10px 0;
+    text-align:center;
+    margin:0 3px;
     border:1px solid rgb(150, 150, 150);
     border-radius:3px;
 }
 .qna-write{
-    padding:10px 20px 10px;
+    width:45%;
+    padding:10px 0;
+    text-align:center;
+    margin:0 3px;
     background-color:rgb(29, 29, 29);
     color:whitesmoke;
     border-radius:3px;
@@ -547,6 +561,14 @@ caption{
 
 
 
+
+@media (max-width:767px){
+/*     table colgroup{
+        display:none;
+    } */
+}
+
+
 @media screen and (min-width:640px){
 
 }
@@ -684,6 +706,65 @@ caption{
     .m-fix-page{
         display:none;
     }
+    .review-click p{
+        display:block;
+        width:50%;
+        padding-left:22%;
+    }
+    .qna-click p{
+        display:block;
+        width:50%;
+        padding-left:24%;
+    }
+    .review-click{
+        width:100%;
+        margin-top:25px;
+        display:flex;
+        justify-content:right;
+        align-items:center;
+    }
+    .review-all{
+        display:inline-block;
+        width:15%;
+        padding:10px 0;
+        text-align:center;
+        margin:0 3px;
+        border:1px solid rgb(150, 150, 150);
+        border-radius:3px;
+    }
+    .review-write{
+        width:15%;
+        padding:10px 0;
+        text-align:center;
+        margin:0 20px 0 3px;
+        background-color:#303033;
+        color:whitesmoke;
+        border-radius:3px;
+    }
+    .qna-click{
+        width:100%;
+        margin-top:25px;
+        display:flex;
+        justify-content:right;
+        align-items:center;
+    }
+    .qna-all{
+        width:15%;
+        padding:10px 0;
+        text-align:center;
+        margin:0 3px;
+        border:1px solid rgb(150, 150, 150);
+        border-radius:3px;
+    }
+    .qna-write{
+        width:15%;
+        padding:10px 0;
+        text-align:center;
+        margin:0 20px 0 3px;
+        background-color:rgb(29, 29, 29);
+        color:whitesmoke;
+        border-radius:3px;
+    }
 }
 @media screen and (min-width:1024px){
     .dot{
@@ -698,6 +779,33 @@ caption{
 
     .desk-result{
         margin-right:15px;
+    }
+    .review-all:hover{
+        background-color:#303033;
+        color:white;
+    }
+    .review-write:hover{
+        background-color:whitesmoke;
+        color:#303033;
+    }
+    .qna-all:hover{
+        background-color:#303033;
+        color:white;
+    }
+    .qna-write:hover{
+        background-color:whitesmoke;
+        color:#303033;
+    }
+
+    .tab-list.active{
+        position:fixed;
+        top:5%;
+        left:50%;
+        transform:translate(-50%,0);
+        width:100%;
+        max-width:1000px;
+        background-color:whitesmoke;
+        z-index:999999;
     }
 
 }
@@ -780,23 +888,6 @@ caption{
         text-align:left;
         padding-left:30px;
     }
-    .review-click{
-        margin-top:25px;
-        display:flex;
-        padding-left:480px;
-        justify-content:space-around;
-        align-items:center;
-    }
-    .review-all{
-        padding:10px 20px 10px;
-        border:1px solid rgb(150, 150, 150);
-        border-radius:3px;
-    }
-    .review-write{
-        padding:10px 20px 10px;
-        background-color:rgb(29, 29, 29);
-        color:whitesmoke;
-        border-radius:3px;
-    }
+    
 
 }
