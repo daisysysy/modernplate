@@ -10,12 +10,12 @@ $(document).ready(function(){
 
 
 
-    $(".arrow").click(function(){
+    $(".m-menu>a").click(function(){
         if($(this).parent().find(".m-drop-down").is(":hidden")){
             $(".m-drop-down").slideUp();
             $(this).parent().find(".m-drop-down").stop().slideDown();
             $(".arrow").removeClass("fa-angle-down").addClass("fa-angle-right");
-            $(this).removeClass("fa-angle-right").addClass("fa-angle-down");
+            $(this).find(".arrow").removeClass("fa-angle-right").addClass("fa-angle-down");
         }else{
             $(".m-drop-down").slideUp();
             $(".arrow").removeClass("fa-angle-down").addClass("fa-angle-right");

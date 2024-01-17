@@ -201,6 +201,7 @@ main{
     left:0;
     border:4px solid rgba(204, 204, 204, 0.7);
     width:100%;
+    box-sizing:border-box;
 }
 #tab{
     width:100%;
@@ -226,6 +227,7 @@ main{
     width:100%;
     max-width:1000px;
     margin:auto;
+    padding-top:200px;
 }
 .detail-image{
     width:100%;
@@ -799,7 +801,7 @@ table colgroup{
 
     .tab-list.active{
         position:fixed;
-        top:5%;
+        top:50px;
         left:50%;
         transform:translate(-50%,0);
         width:100%;

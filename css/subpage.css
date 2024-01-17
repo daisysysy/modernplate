@@ -34,36 +34,39 @@
 
 
 
-
+.section{
+    width:90%;
+}
 section>h2{
     width:100%;
     text-align:center;
-    font-size:1.8rem;
-    margin-top:80px;
+    font-size:1.5rem;
+    margin-top:20px;
     margin-bottom:65px;
     font-weight:600;
 }
 
 
 #menu-position{
-    width:100%;
+    width:95%;
+    margin:auto;
     position:relative;
-    /* margin-bottom:50px; */
+    /* border:1px solid black; */
 }
 #menu-tab{
     width:80%;
-    max-height:300px;
-    margin:0 auto 85px;
+    max-height:200px;
+    margin:0 auto 75px;
     /* border:1px solid black; */
 }
 /* #menu-position:after{
     content:"";
     position:absolute;
-    border:1px solid rgb(194, 193, 193);
+    border:1px solid #e7e7e7;
     left:50%;
     transform:translate(-50%,0);
-    bottom:-80px;
-    width:90%;
+    bottom:-5%;
+    width:85%;
 } */
 .swiper-button-next{
     position:absolute;
@@ -78,10 +81,13 @@ section>h2{
 }
 .swiper-slide p{
     position:absolute;
-    bottom:15%;
+    bottom:10%;
     left:50%;
     transform:translate(-50%,0);
     font-weight:600;
+    font-size:1.2rem;
+    background-color:white;
+    border-radius:5px;
 }
 
 
@@ -221,7 +227,9 @@ section>h2{
 
 
     #menu-position{
-        margin-bottom:100px;
+        width:95%;
+        margin-top:80px;
+        margin-bottom:180px;
     }
 
 
@@ -242,16 +250,6 @@ section>h2{
 @media screen and (min-width:768px){
 
 
-
-    section>h2{
-        font-size:2rem;
-        margin-bottom:100px;
-    }
-
-    #menu-tab{
-        margin:0 auto 150px;
-        /* border:1px solid black; */
-    }
 /*     #menu-position:after{
         content:"";
         position:absolute;
@@ -324,8 +322,8 @@ section>h2{
 
 
     section>h2{
-        margin-top:120px;
-        margin-bottom:120px;
+        margin-top:80px;
+        margin-bottom:100px;
     }
 
 
@@ -339,7 +337,7 @@ section>h2{
 
 
     #menu-tab{
-        margin:0 auto 150px;
+        margin:0 auto 250px;
         /* border:1px solid black; */
     }
 /*     #menu-position:after{
@@ -413,14 +411,7 @@ section>h2{
 
 
 
-
-    section>h2{
-        margin-top:150px;
-    }
-
     #menu-tab{
-        margin:0 auto 200px;
-        /* border:1px solid black; */
         width:75%;
     }
 /*     #menu-position:after{

@@ -286,7 +286,7 @@ $(function(){
     // 상단 탭 메뉴 스크롤 고정
     $(window).scroll(function(){
         var $scrollTop=$(window).scrollTop();
-        if($scrollTop>2500){
+        if($scrollTop>1500){
             $(".tab-list").addClass("active")
         }else{
             $(".tab-list").removeClass("active")
