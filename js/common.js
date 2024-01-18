@@ -77,8 +77,20 @@ $(document).ready(function(){
         $(".menu>a:last-child").mouseenter(function(){
             $(".full-back").hide();
         })
-        
+    
+    })
 
+
+
+
+    // 준비 중
+    $(".brand-pre>a").click(function(){
+        if($(this).find(".preparing").is(":hidden")){
+            $(this).find(".preparing").stop().show();
+        }else{
+            $(".preparing").stop().hide();
+        }
+        return false;
     })
 
 

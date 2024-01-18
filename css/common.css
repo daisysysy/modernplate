@@ -253,10 +253,103 @@ section{
 
 
 
-main{
+
+
+#sub-banner-section{
+    width:90%;
+    margin:200px auto 0;
+    /* border:1px solid black; */
+}
+#sub-banner-section>h2{
+    font-size:2rem;
     width:100%;
-    margin:auto;
-    /* max-width:1440px; */
+    text-align:center;
+    margin-bottom:3px;
+}
+#sub-banner-section>p{
+    font-size:1.1rem;
+    width:100%;
+    text-align:center;
+    margin-bottom:50px;
+    color:gray;
+}
+.sub-banner{
+    width:100%;
+}
+.banner-left{
+    width:100%;
+    /* border:1px solid black; */
+    margin-bottom:50px;
+}
+.banner-left a{
+    width:100%;
+}
+.banner-left a img{
+    width:100%;
+}
+.waffle-brand{
+    text-align:center;
+    margin-top:15px;
+    font-weight:300;
+    font-size:1.1rem;
+    letter-spacing:1px;
+}
+.banner-left h2{
+    text-align:center;
+    font-size:2rem;
+    font-weight:bold;
+}
+.waffle-exp{
+    text-align:center;
+    font-size:1.1rem;
+    color:#505050;
+    margin-top:10px;
+}
+.waffle-arrow{
+    margin-left:5px;
+    font-size:1.2rem;
+}
+.waffle-c{
+    color:gray;
+    text-align:center;
+    margin-top:5px;
+}
+.banner-right{
+    width:100%;
+    /* border:1px solid black; */
+}
+.banner-right a{
+    width:100%;
+}
+.banner-right a img{
+    width:100%;
+}
+.nature-brand{
+    text-align:center;
+    margin-top:15px;
+    font-weight:300;
+    font-size:1.1rem;
+    letter-spacing:1px;
+}
+.banner-right h2{
+    text-align:center;
+    font-size:2rem;
+    font-weight:bold;
+}
+.nature-exp{
+    text-align:center;
+    font-size:1.1rem;
+    color:#505050;
+    margin-top:10px;
+}
+.nature-arrow{
+    margin-left:5px;
+    font-size:1.2rem;
+}
+.nature-c{
+    color:gray;
+    text-align:center;
+    margin-top:5px;
 }
 
 
@@ -264,32 +357,9 @@ main{
 
 
 
-#full-banner-section{
-    width:100%;
-    margin-top:200px;
-    margin-bottom:200px;
-}
-.full-banner{
-    width:100%;
-    display:none;
-}
-.full-banner img{
-    width:100%;
-}
-.full-banner a{
-    /* border:1px solid blue; */
-    display:inline-block;
-    width:100%;
-    position:relative;
-}
-.full-banner-h{
-    width:100%;
-    max-width:500px;
-    margin:auto;
-}
-.full-banner-h img{
-    width:100%;
-}
+
+
+
 .full-bg{
     width:100%;
     height:100%;
@@ -307,120 +377,45 @@ main{
 
 
 
-#sub-banner-section{
-    width:100%;
-    margin:200px auto 0;
-    /* border:1px solid black; */
-}
-#sub-banner-section>h2{
-    display:none;
-}
-#sub-banner-section>p{
-    display:none;
-}
-#sub-banner-section h2{
-    width:100%;
-    text-align:center;
-    margin-bottom:3px;
-}
-#sub-banner-section p{
-    width:100%;
-    text-align:center;
-    margin-bottom:50px;
-    color:gray;
-    font-size:1.1rem;
-}
-.sub-banner{
-    width:100%;
-}
-.banner-left{
-    width:100%;
-    /* border:1px solid black; */
-    margin-bottom:50px;
-    background-color:#eee;
-}
-.banner-left a{
-    width:100%;
-    height:300px;
-}
-.banner-left a img{
-    width:100%;
-    object-fit:cover;
-}
-.banner-left h2{
-    /* border:1px solid black; */
-    width:100%;
-    padding:20px 30px 10px;
-    font-weight:900;
-    color:#3f2b12;
-}
-.banner-left p{
-    padding:0 30px;
-    line-height:150%;
-    padding-bottom:50px;
-    color:rgb(59, 59, 59);
-}
-.banner-right{
-    width:100%;
-    /* border:1px solid black; */
-    background-color:#eee;
-}
-.banner-right a img{
-    width:100%;
-    object-fit:cover;
-}
-.banner-right h2{
-    /* border:1px solid black; */
-    width:100%;
-    padding:20px 30px 10px;
-    font-weight:900;
-    color:#1e3018;
-}
-.banner-right p{
-    padding:0 30px 50px;
-    line-height:150%;
-    color:rgb(59, 59, 59);
-}
+
 
 
 
 
 
 #best-section{
+    width:90%;
+    margin:150px auto 0;
+    /* border:1px solid black; */
+}
+#best-section>h2{
+    font-size:2rem;
     width:100%;
-    /* border:1px solid black; */
+    text-align:center;
+    margin-bottom:3px;
 }
-#best-section h2{
-    margin-top:150px;
-    /* border:1px solid black; */
-    width:50%;
-    margin-left:20%;
-    font-size:1.8rem;
-}
-#best-section p{
-    margin-top:3px;
+#best-section>p{
+    font-size:1.1rem;
+    width:100%;
+    text-align:center;
+    margin-bottom:50px;
     color:gray;
-    font-weight:500;
-    width:70%;
-    /* border:1px solid black; */
-    margin-left:14%;
-    font-size:1.2rem;
 }
 .best-content{
     width:100%;
     text-align:center;
-
 }
 .more{
     border:none;
     width:75px;
     height:35px;
-    border-radius:8px;
-    background-color:#e9e4e0;
     text-align:center;
     margin-top:10px;
     font-size:1.1rem;
     font-weight:500;
+    background-color:whitesmoke;
+    color:#505050;
+    border-radius:5px;
     
 }
 .more.active{
@@ -430,19 +425,20 @@ main{
     border:none;
     width:77px;
     height:35px;
-    border-radius:8px;
-    background-color:#e9e4e0;
+    background-color:whitesmoke;
     text-align:center;
     margin:10px auto 0;
     font-size:1.1rem;
     font-weight:500;
     display:none;
+    color:#505050;
+    border-radius:5px;
 }
 .fold.active{
     display:block;
 }
 .best-top{
-    width:95%;
+    width:100%;
     display:flex;
     flex-wrap:wrap;
     justify-content:space-around;
@@ -459,33 +455,21 @@ main{
 .best-top img{
     width:100%;
 }
-.ribbon{
-    position:absolute;
-    background-color:rgb(2, 112, 103);
-    height:40px;
-    top:3%;
-    right:-18%;
-    font-size:1.5rem;
-    font-weight:600;
-    color:white;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    transform:rotate(45deg);
-    width:120px;
-}
 .best-top h3{
     font-size:1.2rem;
     margin-top:15px;
+    font-weight:500;
 }
 .best-top p{
     font-size:1.2rem;
     margin:auto;
     margin-bottom:20px;
     /* border:1px solid red; */
+    margin-top:3px;
+    font-weight:700;
 }
 .best-bottom{
-    width:95%;
+    width:100%;
     display:flex;
     flex-wrap:wrap;
     justify-content:space-around;
@@ -507,92 +491,26 @@ main{
 .best-bottom h3{
     font-size:1.2rem;
     margin-top:15px;
+    font-weight:500;
 }
 .best-bottom p{
     font-size:1.2rem;
     margin:auto;
     margin-bottom:20px;
-}
-
-
-
-
-
-
-
-.banner-section{
-    width:95%;
-    margin:auto;
-}
-.banner1,
-.banner2{
-    width:100%;
-    margin:50px auto;
-    max-width:500px;
-}
-.banner1 img,
-.banner2 img{
-    width:100%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#sale-section{
-    max-width:1920px;
-    margin:auto;
-    /* border:1px solid black; */
-}
-.saleSwiper-wrap{
-    width:100%;
-    margin:auto;
-}
-.saleSwiper{
-    padding-bottom:75px;
-}
-.saleSwiper-wrap .swiper-button-next,
-.saleSwiper-wrap .swiper-button-prev{
-    display:none;
-}
-.eng{
-    margin-left:24%;
-    font-size:2rem;
-    margin-bottom:3px;
-}
-.kor{
-    margin-left:28%;
-    font-weight:bold;
-    margin-bottom:50px;
-}
-.saleSwiper .swiper-slide{
-    display:flex;
-    flex-direction:column;
-}
-#sale-section h3{
-    font-size:1.2rem;
-    margin-top:12px;
-}
-#sale-section p{
-    font-size:1.2rem;
+    /* border:1px solid red; */
     margin-top:3px;
+    font-weight:700;
 }
+
+
+
 
 
 
 
 #brand-section{
     width:100%;
-    margin-top:200px;
+    margin-top:150px;
 }
 #brand-section>a{
     display:inline-block;
@@ -612,34 +530,205 @@ main{
     left:0;
 }
 .brand-bg:hover{
-    background-color:rgba(0, 0, 0, 0.1);
+    background-color:rgba(0, 0,0, 0.1);
 }
 .brand-ex{
-    width:100%;
-    margin:auto;
+    width:90%;
+    margin:40px auto 0;
     text-align:center;
 }
 .brand-ex img{
     width:100%;
 }
-.brand-mp{
-    margin-top:30px;
-    margin-bottom:2px;
-    font-size:1.4rem;
-}
 .brand-title{
-    margin-top:30px;
-    margin-bottom:2px;
     font-size:2rem;
+    width:100%;
+    text-align:center;
+    margin-bottom:3px;
 }
 .brand-title-p{
-    margin-bottom:30px;
-    font-size:1.2rem;
+    font-size:1.1rem;
+    width:100%;
+    text-align:center;
+    margin-bottom:50px;
+    color:gray;
+}
+.brand-mp{
+    text-align:center;
+    font-size:1.3rem;
+    color:#505050;
+    margin-top:20px;
+    font-weight:600;
 }
 .brand-mp-p{
-    margin-bottom:30px;
+    text-align:center;
+    font-size:1.1rem;
+    color:#505050;
+    margin-top:5px;
+}
+
+
+
+
+
+
+
+#recommend-section{
+    width:90%;
+    margin:200px auto 0;
+    /* border:1px solid black; */
+}
+#recommend-section>h2{
+    font-size:2rem;
+    width:100%;
+    text-align:center;
+    margin-bottom:3px;
+}
+#recommend-section>p{
+    font-size:1.1rem;
+    width:100%;
+    text-align:center;
+    margin-bottom:50px;
+    color:gray;
+}
+.recommend-wrap{
+    width:100%;
+}
+.recommend-box{
+    width:100%;
+    /* border:1px solid black; */
+    margin-bottom:50px;
+}
+.recommend-box a{
+    width:100%;
+}
+.recommend-box a img{
+    width:100%;
+}
+.brown-brand{
+    text-align:center;
+    margin-top:15px;
+    font-weight:300;
+    font-size:1.1rem;
+    letter-spacing:1px;
+}
+.recommend-box h2{
+    text-align:center;
+    font-size:1.6rem;
+    font-weight:bold;
+    margin-top:5px;
+}
+.brown-exp{
+    text-align:center;
+    font-size:1.1rem;
+    color:#505050;
+    margin-top:10px;
+}
+.brown-arrow{
+    margin-left:5px;
     font-size:1.2rem;
 }
+.brown-c{
+    color:gray;
+    text-align:center;
+    margin-top:5px;
+}
+.darkbrown-brand{
+    text-align:center;
+    margin-top:15px;
+    font-weight:300;
+    font-size:1.1rem;
+    letter-spacing:1px;
+}
+.darkbrown-exp{
+    text-align:center;
+    font-size:1.1rem;
+    color:#505050;
+    margin-top:10px;
+}
+.darkbrown-arrow{
+    margin-left:5px;
+    font-size:1.2rem;
+}
+.darkbrown-c{
+    color:gray;
+    text-align:center;
+    margin-top:5px;
+}
+.blue-brand{
+    text-align:center;
+    margin-top:15px;
+    font-weight:300;
+    font-size:1.1rem;
+    letter-spacing:1px;
+}
+.blue-exp{
+    text-align:center;
+    font-size:1.1rem;
+    color:#505050;
+    margin-top:10px;
+}
+.blue-arrow{
+    margin-left:5px;
+    font-size:1.2rem;
+}
+.blue-c{
+    color:gray;
+    text-align:center;
+    margin-top:5px;
+}
+
+
+
+
+
+
+
+#sale-section{
+    width:100%;
+    margin:150px auto 0;
+    /* border:1px solid black; */
+}
+.eng{
+    font-size:2rem;
+    width:100%;
+    text-align:center;
+    margin-bottom:3px;
+}
+.kor{
+    font-size:1.1rem;
+    width:100%;
+    text-align:center;
+    margin-bottom:50px;
+    color:gray;
+}
+.saleSwiper-wrap{
+    width:100%;
+    margin:auto;
+}
+.saleSwiper{
+    padding-bottom:75px;
+}
+.saleSwiper-wrap .swiper-button-next,
+.saleSwiper-wrap .swiper-button-prev{
+    display:none;
+}
+.saleSwiper .swiper-slide{
+    display:flex;
+    flex-direction:column;
+}
+.saleSwiper h3{
+    font-size:1.2rem;
+    margin-top:12px;
+}
+.saleSwiper p{
+    font-size:1.2rem;
+    margin-top:3px;
+}
+
+
+
+
 
 
 
@@ -662,14 +751,12 @@ footer{
     width:100%;
     margin-top:200px;
     /* border:1px solid black; */
-    background-color:#5A4C78;
+    background-color:#e7e7e7;
     line-height:180%;
-    color:#111;
-    font-weight:500;
+    font-weight:400;
+    color:#505050;
 }
-footer a{
-    color:black;
-}
+
 #footer-left{
     width:100%;
     /* border:1px solid red; */
@@ -681,9 +768,10 @@ footer a{
     /* border:1px solid blue; */
     padding-left:35px;
     padding-bottom:30px;
+    line-height:175%;
 }
-.footer-logo{
-    width:100%;
+#footer-right h2{
+    display:none;
 }
 .footer-customer{
     width:100%;
@@ -692,22 +780,12 @@ footer a{
     padding-left:35px;
 }
 .footer-customer h2{
-    margin:13px 0;
+    margin:10px 0;
     font-size:2rem;
-    line-height:100%;
 }
 .footer-customer p{
     font-size:1.3rem;
     line-height:170%;
-}
-.logo-box{
-    width:200px;
-    height:100px;
-    /* border:1px solid black; */
-    margin:40px auto 20px;
-}
-.logo-box img{
-    width:100%;
 }
 .terms{
     text-align:center;
@@ -813,40 +891,6 @@ footer a{
         justify-content:center;
     }
 
-
-
-
-
-
-
-
-
-
-    .ribbon{
-        top:2.5%;
-        right:-21%;
-        width:180px;
-        height:50px;
-    }
-
-
-
-
-
-
-    
-
-
-
-
-
-
-    #sale-section h3{
-        font-size:1.1rem;
-    }
-    #sale-section p{
-        font-size:1.1rem;
-    }
 }
 
 @media screen and (min-width:768px){
@@ -870,15 +914,9 @@ footer a{
 
 
     #sub-banner-section{
-        width:100%;
-        margin:300px auto 0;
+        width:90%;
+        margin:200px auto 0;
         /* border:1px solid black; */
-    }
-    #sub-banner-section>h2{
-        display:block;
-    }
-    #sub-banner-section>p{
-        display:block;
     }
     .sub-banner{
         width:100%;
@@ -886,38 +924,20 @@ footer a{
         justify-content:space-around;
     }
     .banner-left{
-        width:47%;
+        width:48%;
         /* border:1px solid black; */
-        margin-bottom:30px;
-        padding-bottom:20px;
     }
-    .banner-left a{
-        width:100%;
-    }
-    .banner-left a img{
-        width:100%;
-        object-fit:cover;
-    }
-    .banner-left h2{
-        text-align:center;
-    }
-    .banner-left p{
-        text-align:center;
-        padding:0 20px;
+    .waffle-exp{
+        width:80%;
+        margin:10px auto 0;
     }
     .banner-right{
-        width:47%;
+        width:48%;
         /* border:1px solid black; */
     }
-    .banner-right a img{
-        width:100%;
-        object-fit:cover;
-    }
-    .banner-right h2{
-        text-align:center;
-    }
-    .banner-right p{
-        text-align:center;
+    .nature-exp{
+        width:80%;
+        margin:10px auto 0;
     }
 
 
@@ -931,36 +951,9 @@ footer a{
 
 
     #best-section{
-        width:95%;
-        margin:auto;
+        width:90%;
+        margin:100px auto 0;
         max-width:1280px;
-    }
-    #best-section h2{
-        margin-left:25%;
-        margin-top:300px;
-    }
-    #best-section p{
-        margin-left:22%;
-    }
-    .best-top h3{
-        font-size:1.05rem;
-
-    }
-    .best-top p{
-        font-size:0.8rem;
-        padding-right:20px;
-    }
-    .best-bottom h3{
-        font-size:1.05rem;
-    }
-    .best-bottom p{
-        font-size:0.8rem;
-        padding-right:20px;
-    }
-
-    .best-top{
-        width:100%;
-        margin-top:100px;
     }
 
     .best-top>div{
@@ -979,67 +972,16 @@ footer a{
         display:flex;
         width:100%;
     }
-    .ribbon{
-        top:2.5%;
-        right:-23%;
-        width:100px;
-        height:33px;
-        font-size:1.3rem;
+
+
+
+
+    .recommend-wrap{
+        display:flex;
     }
-
-
-
-
-
-
-
-    .banner-section{
-        width:60%;
+    .recommend-box{
+        padding:5px;
     }
-
-
-
-
-
-
-
-    #sale-section h3{
-        font-size:1rem;
-    }
-    #sale-section p{
-        font-size:1rem;
-    }
-
-
-
-
-    .brand-ex{
-        width:80%;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-    
-    
 
 
 }
@@ -1139,7 +1081,27 @@ footer a{
         display:flex;
         justify-content:center;
         align-items:center;
-
+    }
+    .menu>a:nth-child(1){
+        position:relative;
+    }
+    .preparing{
+        position:absolute;
+        top:-45px;
+        background-color:rgb(221, 239, 255); 
+        padding:10px;
+        border-radius:15px;
+        font-size:0.9rem;
+        display:none;
+    }
+    .preparing:after{
+        content:"";
+        position:absolute;
+        top:95%;
+        right:10%;
+        border-style:solid;
+        border-width:10px;
+        border-color:rgb(221, 239, 255) transparent transparent transparent;
     }
     .drop-down{
         position:absolute;
@@ -1281,16 +1243,15 @@ footer a{
     .main-slide-title h2{
         font-size:2.7rem;
         font-weight:500;
-        color:black;
-        padding-top:230px;
-        padding-bottom:20px;
+        color:#566147;
+        padding-top:240px;
+        padding-bottom:10px;
         
     }
     .main-slide-title p{
-        font-size:1rem;
-        font-weight:600;
-        color:black;
-        line-height:180%;
+        font-size:1.1rem;
+        font-weight:500;
+        color:#566147;
         padding-left:10px;
         /* border:1px solid black; */
     }
@@ -1317,12 +1278,53 @@ footer a{
 
     #sub-banner-section{
         width:90%;
-        margin-top:250px;
+        margin:200px auto 0;
     }
-    .banner-left{
-        margin-bottom:10px;
-        padding-bottom:30px;
+    #sub-banner-section>h2{
+        font-size:1.6rem;
+        font-weight:700;
     }
+    #sub-banner-section>p{
+        font-size:1rem;
+        margin-top:5px;
+    }
+    .waffle-brand{
+        font-size:0.9rem;
+        color:black;
+        font-weight:300;
+    }
+    .banner-left h2{
+        font-size:1.8rem;
+        font-weight:bold;
+    }
+    .banner-left>a:hover .ws{
+        font-size:2rem;
+    }
+    .waffle-exp{
+        font-size:1rem;
+    }
+    .waffle-c{
+        font-size:0.9rem;
+    }
+    .nature-brand{
+        font-size:0.9rem;
+        color:black;
+        font-weight:300;
+    }
+    .banner-right h2{
+        font-size:1.8rem;
+        font-weight:bold;
+    }
+    .banner-right>a:hover .ns{
+        font-size:2rem;
+    }
+    .nature-exp{
+        font-size:1rem;
+    }
+    .nature-c{
+        font-size:0.9rem;
+    }
+
 
 
 
@@ -1334,106 +1336,148 @@ footer a{
         /* border:1px solid black; */
     }
 
-    #best-section h2{
-        font-size:2rem;
-        margin-top:250px;
+    #best-section>h2{
+        font-size:1.6rem;
+        font-weight:700;
     }
     #best-section>p{
-        font-size:1.2rem;
+        font-size:1rem;
+        margin-top:5px;
     }
     .best-top h3{
-        font-size:0.95rem;
-
+        font-size:1rem;
     }
-    /* .best-top>div>p{
-        font-size:0.7rem;
-    } */
+    .best-top p{
+        font-size:1rem;
+    }
     .best-bottom h3{
-        font-size:0.95rem;
+        font-size:1rem;
     }
-    /* .best-bottom>div>p{
-        font-size:0.7rem;
-    } */
-
+    .best-bottom p{
+        font-size:1rem;
+    }
     .best-top>div{
         width:22%;
     }
     .best-bottom>div{
         width:22%;
     }
-    .ribbon{
-        top:3%;
-        right:-21%;
-        width:120px;
-        height:35px;
+
+
+
+
+    #brand-section{
+        margin-top:200px;
+    }
+    .brand-ex{
+        width:90%;
+        margin:100px auto 0;
+    }
+    .brand-title{
+        font-size:1.6rem;
+        font-weight:700;
+    }
+    .brand-title-p{
+        font-size:1rem;
+        margin-top:5px;
+    }
+    .brand-mp{
         font-size:1.2rem;
+        font-weight:600;
+        margin-top:30px;
     }
-
-
-
-
-
-    .full-banner{
-        display:block;
-        margin-top:250px;
-    }
-    .full-banner-h{
+    .brand-mp br{
         display:none;
     }
-
-
-
-
-
-
-   
-
-    .banner-section{
-        width:60%;
-    }
-    .banner1{
-        transform:translate(-100px,0);
-        opacity:0;
-        transition:0.5s;
-        transition-delay:0.2s;
-    }
-    .banner1.active{
-        transform:translate(0,0);
-        opacity:1;
-    }
-    .banner2{
-        transform:translate(-100px,0);
-        opacity:0;
-        transition:0.5s;
-        transition-delay:0.5s;
-    }
-    .banner2.active{
-        transform:translate(0,0);
-        opacity:1;
+    .brand-mp-p{
+        font-size:1rem;
     }
 
 
 
 
 
+    #recommend-section{
+        width:90%;
+        margin:200px auto 0;
+    }
+    #recommend-section>h2{
+        font-size:1.6rem;
+        font-weight:700;
+    }
+    #recommend-section>p{
+        font-size:1rem;
+        margin-top:5px;
+    }
+    .brown-brand{
+        font-size:0.9rem;
+        color:black;
+        font-weight:300;
+    }
+    .recommend-box h2{
+        font-size:1.5rem;
+        font-weight:bold;
+    }
+    .box-bb a:hover .bb{
+        font-size:1.7rem;
+    }
+    .brown-exp{
+        font-size:1rem;
+    }
+    .brown-c{
+        font-size:0.9rem;
+    }
+    .darkbrown-brand{
+        font-size:0.9rem;
+        color:black;
+        font-weight:300;
+    }
+    .box-db a:hover .db{
+        font-size:1.7rem;
+    }
+    .darkbrown-exp{
+        font-size:1rem;
+    }
+    .darkbrown-c{
+        font-size:0.9rem;
+    }
+    .blue-brand{
+        font-size:0.9rem;
+        color:black;
+        font-weight:300;
+    }
+    .box-blb a:hover .blb{
+        font-size:1.7rem;
+    }
+    .blue-exp{
+        font-size:1rem;
+    }
+    .blue-c{
+        font-size:0.9rem;
+    }
 
 
 
 
 
 
-  
+
 
 
 
     #sale-section{
-        margin-top:250px;
+        margin:150px auto 0;
     }
-
-
+    .eng{
+        font-size:1.6rem;
+        font-weight:700;
+    }
+    .kor{
+        font-size:1rem;
+        margin-top:5px;
+    }
     .saleSwiper-wrap{
         position:relative;
-        width:95%;
     }
     .saleSwiper-wrap .swiper-button-next,
     .saleSwiper-wrap .swiper-button-prev{
@@ -1441,43 +1485,17 @@ footer a{
         font-size:0.5rem;
         color:gray;
         position:absolute;
-        top:26%;
+        top:30%;
     }
     .saleSwiper .swiper-scrollbar{
         display:none;
     }
-    #sale-section h3{
+    .saleSwiper h3{
         font-size:0.95rem;
     }
-    #sale-section p{
+    .saleSwiper p{
         font-size:0.95rem;
     }
-
-
-
-
-
-    .brand-ex{
-        width:75%;
-    }
-    #brand-section>a{
-        margin-bottom:120px;
-    }
-    .brand-title{
-        font-size:2.3rem;
-        margin-bottom:0;
-    }
-    .brand-title-p{
-        font-size:1.1rem;
-        margin-bottom:60px;
-    }
-
-
-
-
-
-
-
 
 
 
@@ -1525,6 +1543,14 @@ footer a{
         padding-left:0;
         padding-bottom:0;
         margin:0 0 80px 50px;
+        font-size:0.9rem;
+    }
+    #footer-right h2{
+        font-size:2.5rem;
+        margin-bottom:50px;
+        margin-top:20px;
+        display:block;
+        text-align:left;
     }
     .footer-customer{
         width:100%;
@@ -1585,45 +1611,8 @@ footer a{
 
 
 
-    #best-section h2{
-        font-size:1.9rem;
+ 
 
-    }
-    #best-section p{
-        font-size:1.1rem;
-
-    }
-    .best-top h3{
-        font-size:1rem;
-
-    }
-    .best-top>div>p{
-        font-size:0.9rem;
-    }
-    .best-bottom h3{
-        font-size:1rem;
-    }
-    .best-bottom>div>p{
-        font-size:0.9rem;
-    }
-    .ribbon{
-        top:3.5%;
-        right:-17%;
-        height:40px;
-    }
-
-
-
-
-
-
-    .banner-section{
-        width:50%;
-    }
-    .banner-left{
-        margin-bottom:5px;
-        padding-bottom:52px;
-    }
 
 
 
@@ -1634,7 +1623,7 @@ footer a{
 
     .saleSwiper-wrap .swiper-button-next,
     .saleSwiper-wrap .swiper-button-prev{
-        top:30%;
+        top:35%;
     }
 
 
@@ -1682,12 +1671,11 @@ footer a{
      .main-slide-title h2{
          font-size:3.2rem;
          font-weight:500;
-         padding-top:240px;
-         padding-bottom:20px;
+         padding-top:250px;
+         padding-bottom:10px;
      }
      .main-slide-title p{
-         font-size:1.1rem;
-         font-weight:600;
+         font-size:1.2rem;
          line-height:180%;
          padding-left:10px;
          /* border:1px solid black; */
@@ -1698,43 +1686,18 @@ footer a{
 
 
     #sub-banner-section{
-        width:85%;
-        margin-top:350px;
+        width:100%;
+        max-width:1300px;
+        margin:300px auto 0;
     }
-    #sub-banner-section h2{
-        font-size:1.8rem;
-        margin-bottom:2px;
-    }
-    .banner-left p{
-        text-align:center;
-        padding:0 50px;
-    }
-
-
-
-
-    .full-banner{
-        margin-top:350px;
-    }
-
 
 
 
 
     #best-section{
-        width:70%;
-        max-width:1920px;
-        margin:auto;
-    }
-    #best-section h2{
-        margin-top:330px;
-    }
-    .ribbon{
-        top:3.5%;
-        right:-21%;
-        height:50px;
-        font-size:1.3rem;
-        width:180px;
+        width:100%;
+        max-width:1300px;
+        margin:200px auto 0;
     }
     .best-top>div{
         width:22%;
@@ -1745,36 +1708,35 @@ footer a{
 
 
 
-
-
-    .banner-section{
-        width:70%;
-        display:flex;
-        justify-content:space-around;
-        align-items:center;
-        margin-bottom:150px;
+    #brand-section{
+        margin-top:300px;
     }
-    .banner1{
-        width:35%;
-    }
-    .banner2{
-        width:40%;
+    .brand-ex{
+        width:100%;
+        max-width:1280px;
+        margin:150px auto 0;
     }
 
 
-    .brand-txt p{
-        width:64%;
+
+
+    #recommend-section{
+        width:100%;
+        max-width:1300px;
+        margin:250px auto 0;
     }
-        
+
+
+
+
+
 
 
 
 
     #sale-section{
-        width:90%;
-        padding:200px 80px;
-        margin-top:-80px;
-        margin-bottom:-100px;
+        width:100%;
+        max-width:1500px;
     }
     .saleSwiper-wrap{
         position:relative;
@@ -1794,34 +1756,14 @@ footer a{
 
 
 
-
-
-
-
-    .brand-ex{
-        width:60%;
-    }
-    #brand-section>a{
-        margin-bottom:150px;
-    }
-    .brand-title{
-        font-size:2.7rem;
-        margin-bottom:1px;
-    }
-    .brand-title-p{
-        font-size:1.1rem;
-        margin-bottom:75px;
-    }
-    .brand-mp{
-        margin-top:50px;
+    #footer-right{
+        padding-left:250px;
     }
 
 
 
 
-    footer{
-        padding:70px 500px 70px 400px;
-    }
+
 
     
 
