@@ -94,6 +94,17 @@ $(document).ready(function(){
     })
 
 
+    // 준비 중 모바일
+    $(".m-brand-pre>a").click(function(){
+        if($(this).find(".m-preparing").is(":hidden")){
+            $(this).find(".m-preparing").stop().show();
+        }else{
+            $(".m-preparing").stop().hide();
+        }
+        return false;
+    })
+
+
 
 
 

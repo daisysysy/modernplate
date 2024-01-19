@@ -129,6 +129,28 @@ h1 img{
     /* border:1px solid red; */
     position:relative;
 }
+.m-brand-pre{
+    position:relative;
+}
+.m-preparing{
+    position:absolute;
+    top:-10px;
+    left:95px;
+    background-color:rgb(221, 239, 255); 
+    padding:10px 15px 10px 15px;
+    border-radius:15px;
+    font-size:1rem;
+    display:none;
+}
+.m-preparing:after{
+    content:"";
+    position:absolute;
+    top:10px;
+    left:-18px;
+    border-style:solid;
+    border-width:10px;
+    border-color: transparent rgb(221, 239, 255) transparent transparent;
+}
 .m-drop-down{
     padding-top:20px;
     padding-left:30px;
@@ -448,25 +470,51 @@ section{
 .best-top>div{
     width:46%;
     /* border:1px solid black; */
-    margin:10px 0;
+    margin:25px 0;
     position:relative;
     overflow:hidden;
+}
+.best-top>div a{
+    display:inline-block;
+    width:100%;
+    text-align:left;
 }
 .best-top img{
     width:100%;
 }
-.best-top h3{
-    font-size:1.2rem;
-    margin-top:15px;
-    font-weight:500;
+.best-brand{
+    margin-top:10px;
+    font-size:0.9rem;
+    letter-spacing:1px;
+    font-weight:300;
 }
-.best-top p{
-    font-size:1.2rem;
-    margin:auto;
-    margin-bottom:20px;
+.best-top h3{
+    font-size:1.1rem;
+    margin-top:7px;
+    font-weight:600;
+}
+.hit{
+    background-color:#303033;
+    width:50px;
+    color:white;
+    text-align:center;
+    font-size:0.9rem;
+    margin-top:10px;
+}
+.best-price{
+    font-size:1.1rem;
     /* border:1px solid red; */
-    margin-top:3px;
-    font-weight:700;
+    margin-top:20px;
+    font-weight:600;
+    position:relative;
+}
+.best-price:after{
+    content:"";
+    width:100%;
+    border:1px solid rgba(221, 221, 221, 0.7);
+    position:absolute;
+    top:-10px;
+    left:0;
 }
 .best-bottom{
     width:100%;
@@ -483,23 +531,20 @@ section{
 .best-bottom div{
     width:46%;
     /* border:1px solid black; */
-    margin:10px 0;
+    margin:25px 0;
+}
+.best-bottom>div a{
+    display:inline-block;
+    width:100%;
+    text-align:left;
 }
 .best-bottom img{
     width:100%;
 }
 .best-bottom h3{
-    font-size:1.2rem;
-    margin-top:15px;
-    font-weight:500;
-}
-.best-bottom p{
-    font-size:1.2rem;
-    margin:auto;
-    margin-bottom:20px;
-    /* border:1px solid red; */
-    margin-top:3px;
-    font-weight:700;
+    font-size:1.1rem;
+    margin-top:7px;
+    font-weight:600;
 }
 
 
@@ -724,6 +769,52 @@ section{
 .saleSwiper p{
     font-size:1.2rem;
     margin-top:3px;
+}
+
+.saleSwiper a{
+    text-align:left;
+}
+
+
+.sale-brand{
+    padding-top:10px;
+    font-size:0.9rem;
+    letter-spacing:1px;
+    font-weight:300;
+}
+.saleSwiper a h3{
+    font-size:1.1rem;
+    margin-top:7px;
+    font-weight:600;
+}
+.sale-price-group{
+    position:relative;
+    width:100%;
+    display:flex;
+    margin-top:20px;
+}
+.sale-price-group:after{
+    content:"";
+    width:100%;
+    border:1px solid rgba(221, 221, 221, 0.7);
+    position:absolute;
+    top:-10px;
+    left:0;
+}
+.discount{
+    color:red;
+    font-weight:600;
+}
+.sale-price{
+    font-size:1.1rem;
+    /* border:1px solid red; */
+    font-weight:600;
+    padding:0 12px 0 15px;
+}
+.cost{
+    color:darkgray;
+    text-decoration:line-through;
+    font-size:0.8rem;
 }
 
 
@@ -1243,7 +1334,7 @@ footer{
     .main-slide-title h2{
         font-size:2.7rem;
         font-weight:500;
-        color:#566147;
+        color:#47503a;
         padding-top:240px;
         padding-bottom:10px;
         
@@ -1251,7 +1342,7 @@ footer{
     .main-slide-title p{
         font-size:1.1rem;
         font-weight:500;
-        color:#566147;
+        color:#47503a;
         padding-left:10px;
         /* border:1px solid black; */
     }
@@ -1362,6 +1453,7 @@ footer{
     .best-bottom>div{
         width:22%;
     }
+
 
 
 
